@@ -1,3 +1,109 @@
 .menu {
-    background-color:red;
+    background-color:white;
+    display:grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+}
+
+#menu1 {
+    background-color: #30332e;
+    height: 540px;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    margin-top: -110px;
+    z-index: 1;
+}
+
+#menu2 {
+    background-color: #30332e;
+    height: 540px;
+    grid-column-start: 9;
+    grid-column-end: 14;
+    margin-top: -110px;
+}
+
+#menu3 {
+    background-color: #30332e;
+    height: 540px;
+    grid-column-start: 16;
+    grid-column-end: 21;
+    margin-top: -110px;
+}
+
+#cardInner1 {
+    background-color: #edeec9;
+    height:520px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    z-index:2
+}
+
+#cardInner2 {
+    background-color: #edeec9;
+    height:520px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    z-index:2
+}
+
+#cardInner3 {
+    background-color: #edeec9;
+    height:520px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:10px;
+    z-index:2
+}
+
+#innest1 {
+    background-color: #30332e;
+    padding-top: -10px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -510px;
+    z-index:5;
+}
+
+#innest2 {
+    background-color: #30332e;
+    padding-top: -10px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -510px;
+    z-index:5;
+}
+
+#innest3 {
+    background-color: #30332e;
+    padding-top: -10px;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -510px;
+    z-index:5;
+}
+
+.lunchHeading {
+    color: #edeec9;
+    font-weight:100;
+    grid-column-start: 3;
+    z-index: 100;
+    margin-left: 20px;
+    // padding-bottom: 0px;
+}
+
+.menuItems {
+    color: #edeec9;
+    margin-left: 20px;
+    padding-bottom:4px;
 }
