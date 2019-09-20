@@ -28,7 +28,7 @@ export class Menu extends Component {
                     <div className="card" id="innest1">
                         </div>
                 </div>
-                <div className="column" id="menu2">
+                {/* <div className="column" id="menu2">
                 <div className="card">
                 <div className="card" id="cardInner2">
                 <br/>
@@ -74,7 +74,7 @@ export class Menu extends Component {
                     </div>
                     <div className="card" id="innest3">
                         </div>
-                </div>
+                </div> */}
             </div>
         )
     }
