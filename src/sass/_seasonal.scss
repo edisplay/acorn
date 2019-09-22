@@ -1,7 +1,8 @@
 .seasonal {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    height: 1000px;
+    height: 1100px;
+    margin-top: -160px;
 }
 
 .seasonalHeading {
@@ -12,4 +13,9 @@
     font-family: 'Lexend Zetta', sans-serif;
     grid-column-start: 3;
     justify-content:center;
+}
+
+.dishItems {
+    grid-column-start: 1;
+    grid-column-end: 5;
 }

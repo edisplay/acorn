@@ -1,0 +1,29 @@
+.seasonalApiOutput {
+    display: grid;
+    grid-template-columns: 80px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    // width: 1600px;
+}
+
+.dishImage {
+    margin-top: -44px;
+    margin-bottom: 10px;
+    width:500px;
+    height:400px;
+    grid-column-start: 2;
+}
+.dishContent {
+    font-size: 25px;
+    grid-column-start: 4;
+    grid-column-end: 10;
+}
+
+.dishTitle {
+    grid-column-start:4;
+    grid-column-end: 6;
+    font-size: 23px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+    font-family: 'Lexend Zetta', sans-serif;
+    // width: 740px;
+    font-weight: 600;
+}
