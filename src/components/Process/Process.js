@@ -27,6 +27,7 @@ export class Process extends Component {
                 <div className="greyBox"></div>
                 <img className="dish" data-aos="fade-up-right" src={Dish}/>
                 <img className="chef" data-aos="fade-up-left" src={Chef}/>
+                <div className="button">Learn More</div>
             </div>
         )
     }

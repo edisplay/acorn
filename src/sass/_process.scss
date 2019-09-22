@@ -13,7 +13,6 @@
     grid-column-start: 2;
     grid-column-end: 4;
     margin-top: 90px;
-    // margin-left: 100px;
     text-align: center;
 }
 
@@ -24,7 +23,8 @@
     text-align: center;
     margin-top: -350px;
     padding-top: -10px;
-    font-size: 20px;
+    font-size: 24px;
+
 }
 
 .greyBox {
@@ -53,6 +53,35 @@
     height: 350px;
     width: 550px;
     margin-top: -432px;
-    margin-right: -300px;
+    margin-right: -390px;
     margin-left: 20px;
+}
+
+.processHeading {
+    width: 20vw;
+    border-bottom: 1px solid white;
+    height: 50px;
+}
+
+.processSummary {
+    width: 23vw;
+    margin-left: -25px;
+}
+
+.button {
+    background-color: #30332e;
+    color: white;
+    border:solid;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    grid-column-start: 3;
+    margin-top: -110px;
+    width:215px;
+    height:65px;
+    font-family: 'Lexend Zetta', sans-serif;
+    margin-left: -115px;
 }
