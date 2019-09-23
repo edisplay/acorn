@@ -6,20 +6,6 @@
     padding: 30px;
 }
 
-// #hoursCard {
-//     grid-column-start: 1;
-//     grid-column-end: 10;
-//     height: 490px;
-//     background-color: #edeec9;
-//     z-index: 1;
-// }
-// #hoursCardInner {
-//     background-color: #30332e;
-//     grid-column-start: 11;
-//     grid-column-end: 13;
-//     z-index:399;
-// }
-
 #hoursCard {
     background-color: #edeec9; 
     grid-column-start: 1;
@@ -61,3 +47,23 @@
     grid-column-start: 15;
     grid-column-end: 29;
 }
+
+@media screen and (max-width: 1410px) {
+    .locale {
+        margin-left: 280px;
+    }
+    
+    #locale1{
+        margin-left: 280px
+    }
+}    
+
+@media screen and (max-width: 1234px) {
+    .locale {
+        margin-left: 180px;
+    }
+    
+    #locale1{
+        margin-left: 180px
+    }
+} 

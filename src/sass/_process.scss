@@ -1,13 +1,13 @@
 .process {
     background-color:#30332e;
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     height: 580px;
 }
 
 .processHeading {
     font-family: 'Lexend Zetta', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     display: inline;
     color: #edeec9;
     grid-column-start: 2;
@@ -23,7 +23,7 @@
     text-align: center;
     margin-top: -380px;
     padding-top: -10px;
-    font-size: 24px;
+    font-size: 22px;
 
 }
 
@@ -61,6 +61,7 @@
     width: 20vw;
     border-bottom: 1px solid white;
     height: 50px;
+    justify-content: center;
 }
 
 .processSummary {
@@ -79,10 +80,125 @@
     margin: 4px 2px;
     cursor: pointer;
     grid-column-start: 3;
-    margin-top: -110px;
-    width:215px;
+    margin-top: -150px;
+    width:20vw;
     height:60px;
     font-family: 'Lexend Zetta', sans-serif;
-    margin-left: -115px;
     padding-bottom: 5px;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
+
+@media screen and (max-width: 1380px) {
+    .processHeading {
+        font-family: 'Lexend Zetta', sans-serif;
+        font-size: 28px;
+        display: inline;
+        color: #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .processSummary {
+        color: #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        text-align: center;
+        margin-top: -380px;
+        padding-top: -10px;
+        font-size: 22px;
+    
+    }
+
+    .button {
+        background-color: #30332e;
+        color: white;
+        border:solid;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        grid-column-start: 3;
+        margin-top: -110px;
+        width:20vw;
+        height:60px;
+        font-family: 'Lexend Zetta', sans-serif;
+        margin-left: -95px;
+        padding-bottom: 5px;
+    }
+}   
+
+@media screen and (max-width: 1355px) {
+    .processHeading {
+        font-family: 'Lexend Zetta', sans-serif;
+        font-size: 26px;
+        display: inline;
+        color: #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        margin-top: 50px;
+        text-align: center;
+        margin-left: -3px;
+    }
+}   
+
+@media screen and (max-width: 1301px) {
+    .processSummary {
+        color: #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        text-align: center;
+        margin-top: -400px;
+        padding-top: -10px;
+        font-size: 22px;
+    
+    }
+}
+
+@media screen and (max-width: 1234px) {
+    .processHeading {
+        font-family: 'Lexend Zetta', sans-serif;
+        font-size: 24px;
+        display: inline;
+        color: #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        margin-top: 50px;
+        text-align: center;
+        margin-left: -3px;
+    }
+
+    .processSummary {
+        color: #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        text-align: center;
+        margin-top: -390px;
+        padding-top: -10px;
+        font-size: 20px;
+    
+    }
+
+    .button {
+        background-color: #30332e;
+        color: white;
+        border:solid;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        grid-column-start: 3;
+        margin-top: -100px;
+        width:20vw;
+        height:60px;
+        font-family: 'Lexend Zetta', sans-serif;
+        margin-left: -90px;
+        padding-bottom: 5px;
+    }
+}    

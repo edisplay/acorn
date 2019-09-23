@@ -159,3 +159,11 @@ a {
 	opacity: 0;	
 	transform: scale(0.1, 1);
 }
+
+
+@media screen and (max-width: 1380px) {
+    ul li {
+      display: inline-block;
+      padding: 6vh 6.0vw;
+  }
+}
