@@ -167,3 +167,31 @@ a {
       padding: 6vh 6.0vw;
   }
 }
+
+@media screen and (max-width: 1180px) {
+  ul li {
+    display: none;
+}
+
+  .acorn {
+    display: none;
+  }
+}  
+
+@media screen and (max-width: 1073px) {
+  .acornHeading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -700px;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+  .heading5280 {
+    color: white;
+    font-family: 'Hepta Slab', serif;
+    text-align: center;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+}  
