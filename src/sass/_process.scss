@@ -2,7 +2,7 @@
     background-color:#30332e;
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    height: 540px;
+    height: 580px;
 }
 
 .processHeading {
@@ -12,7 +12,7 @@
     color: #edeec9;
     grid-column-start: 2;
     grid-column-end: 4;
-    margin-top: 90px;
+    margin-top: 50px;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@
     grid-column-start: 2;
     grid-column-end: 4;
     text-align: center;
-    margin-top: -350px;
+    margin-top: -380px;
     padding-top: -10px;
     font-size: 24px;
 
@@ -81,7 +81,8 @@
     grid-column-start: 3;
     margin-top: -110px;
     width:215px;
-    height:65px;
+    height:60px;
     font-family: 'Lexend Zetta', sans-serif;
     margin-left: -115px;
+    padding-bottom: 5px;
 }
