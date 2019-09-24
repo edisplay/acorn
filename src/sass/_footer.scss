@@ -71,4 +71,33 @@
         font-size: 18px;
         color: #1da1f2;
     }
-}    
+}
+
+@media screen and (max-width: 470px) {
+    .footer {
+        background-color: #525962;
+        height: 80px;
+    }
+    
+    .footerMessage {
+        text-align: center;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        font-size: 11px;
+    }
+    
+    .social {
+        font-size: 24px;
+        color: #3b5998;
+    }
+    
+    .social2 {
+        font-size: 24px;
+        color: #1da1f2;
+    }
+
+    .socialFooter {
+        margin-top: 10px;
+        text-align: center;
+    }
+}  
