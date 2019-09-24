@@ -244,4 +244,59 @@ a {
     background-repeat: no-repeat;
     background-position: center center;
   }
+
+  .acornHeading {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -550px;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+  
+  .heading5280 {
+    color: white;
+    font-family: 'Hepta Slab', serif;
+    text-align: center;
+    margin-top: 40px;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+  
+  .quote5280 {
+    color: white;
+    text-align:center;
+    font-size: 20px;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+  
+  .headingYelp {
+    color: white;
+    font-family: 'Hepta Slab', serif;
+    text-align: center;
+    margin-top: 40px;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+  
+  .quoteYelp{
+    color: white;
+    text-align:center;
+    font-size: 20px;
+    -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+  
+  // Start heading styles
+  
+  .heroHeading {
+      margin-top: 260px;
+      text-align: center;
+      font-size: 35px;
+      font-family: 'Lexend Peta', sans-serif;
+      color: white;
+      -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+            animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
 }  

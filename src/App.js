@@ -6,8 +6,8 @@ import Header from './components/Header/Header';
 // import Gsaphero from './components/Gsaphero/Gsaphero';
 // import Reservations from './components/Reservations/Reservations';
 // import Menu from './components/Menu/Menu';
-// import Seasonal from './components/Seasonal/Seasonal';
-// import Polygon from './components/Polygon/Polygon';
+// import Seasonal from './components/Seasonal/Seasonal'; // Test on S3 for mobile...
+// import Polygon from './components/Polygon/Polygon'; // There is a problem here...
 // import Gallery from './components/Gallery/Gallery';
 // import Hours from './components/Hours/Hours';
 // import Footer from './components/Footer/Footer';
