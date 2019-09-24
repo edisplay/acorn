@@ -3,8 +3,6 @@
 }
 
 .polygonDiv {
-    display: grid;
-    grid-template-columns: 50vw 50vw;
     background-color: #525962;
     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
     grid-column-start: 1;
@@ -19,12 +17,9 @@
     }
     
     .polygonDiv {
-        display: grid;
         grid-template-columns: 50vw 50vw;
         background-color: #525962;
         clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-        grid-column-start: 1;
-        grid-column-end: 3;
         height: 399px;
         width: 99.2vw;
     }
@@ -33,6 +28,7 @@
 @media screen and (max-width: 470px) {
     .polygonContainer {
         margin-top: -300px;
+        display: none;
     }
 
     .polygonWrap {
@@ -41,12 +37,8 @@
     
     .polygonDiv {
         display: grid;
-        grid-template-columns: 50vw 50vw;
         background-color: #525962;
-        clip-path: polygon(100% 0, 0% 100%, 100% 100%);
-        grid-column-start: 1;
-        grid-column-end: 3;
-        height: 399px;
+        clip-path: polygon(75% 58%, 0% 100%, 100% 100%);
         width: 100vw;
     }
 }    
