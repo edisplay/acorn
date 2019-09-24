@@ -40,26 +40,3 @@
         display: none;
     }
 }    
-
-@media screen and (max-width: 320px) {
-    .resHeading {
-        color: #EDEEC9;
-        font-family: 'Lexend Zetta', sans-serif;
-        text-align: center;
-        grid-column-start: 5;
-        margin-top: 25px;
-        font-size: 15px;
-        border-bottom: 1px white solid;
-        height:50px;
-    }
-
-    .menuHeading {
-        text-align: center;
-        grid-column-start: 5;
-        color: #edeec9;
-        font-family: 'Lexend Zetta', sans-serif;
-        margin-top: 100px;
-        height:50px;
-        font-size: 23px;
-    }
-}    

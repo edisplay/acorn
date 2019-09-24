@@ -6,11 +6,8 @@ export class Footer extends Component {
     render() {
         return (
             <div className="footer">
-                <p className="footerMessage">Denver Acorn 2019 - Brought to you by <a href="http://lusciden.com
+                <p className="footerMessage"><a href="https://www.facebook.com/denveracorn/?ref=br_rs"><FaFacebookF className="social" /></a><a href="https://twitter.com/acorn_Denver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><FaTwitterSquare className="social2" /></a>Denver Acorn 2019 - Proudly Brought to you by <a href="http://lusciden.com
                 ">Lusciden</a></p>
-                <div className="socialDiv">
-                <a href="https://www.facebook.com/denveracorn/?ref=br_rs"><FaFacebookF className="social" /></a><a href="https://twitter.com/acorn_Denver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><FaTwitterSquare className="social2" /></a>
-                </div>
             </div>
         )
     }
