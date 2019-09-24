@@ -49,8 +49,9 @@
 
 @media screen and (max-width: 570px) {
     .footer {
+        margin-top: -1px;
         background-color: #525962;
-        height: 60px;
+        height: 70px;
     }
     
     .footerMessage {
@@ -59,16 +60,22 @@
         font-family: 'Lexend Peta', sans-serif;
         font-size: 11px;
     }
+
+    .socialDiv {
+        text-align: center;
+        margin-top: 10px;
+    }
     
     .social {
         margin-right: 20px;
-        font-size: 18px;
+        font-size: 25px;
         color: #3b5998;
     }
     
     .social2 {
         margin-right: 20px;
-        font-size: 18px;
+        font-size: 25px;
         color: #1da1f2;
+        text-align: center;
     }
 }    
