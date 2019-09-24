@@ -8,8 +8,8 @@ import Reservations from './components/Reservations/Reservations';
 import Menu from './components/Menu/Menu';
 // import Seasonal from './components/Seasonal/Seasonal'; // Test on S3 for mobile WITH Wordpress deploy!...
 import Polygon from './components/Polygon/Polygon'; // There is a problem here...
-// import Gallery from './components/Gallery/Gallery';
-// import Hours from './components/Hours/Hours';
+import Gallery from './components/Gallery/Gallery';
+import Hours from './components/Hours/Hours';
 // import Footer from './components/Footer/Footer';
 
 function App() {
@@ -22,9 +22,9 @@ function App() {
       <Menu className="menu"/>
       {/* <Seasonal className="seasonal"/> */}
       <Polygon />
-      {/* <Gallery className="gallery"/>
+      <Gallery className="gallery"/>
       <Hours className="hours"/>
-      <Footer className="footer"/> */}
+      {/* <Footer className="footer"/> */}
     </div>
   );
 }
