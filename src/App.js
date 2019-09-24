@@ -6,7 +6,7 @@ import Process from './components/Process/Process';
 import Gsaphero from './components/Gsaphero/Gsaphero';
 import Reservations from './components/Reservations/Reservations';
 import Menu from './components/Menu/Menu';
-// import Seasonal from './components/Seasonal/Seasonal'; // Test on S3 for mobile...
+import Seasonal from './components/Seasonal/Seasonal'; // Test on S3 for mobile...
 // import Polygon from './components/Polygon/Polygon'; // There is a problem here...
 // import Gallery from './components/Gallery/Gallery';
 // import Hours from './components/Hours/Hours';
@@ -20,8 +20,8 @@ function App() {
       <Gsaphero className="gsaphero"/>
       <Reservations className="reservations"/>
       <Menu className="menu"/>
-      {/* <Seasonal className="seasonal"/>
-      <Polygon />
+      <Seasonal className="seasonal"/>
+      {/* <Polygon />
       <Gallery className="gallery"/>
       <Hours className="hours"/>
       <Footer className="footer"/> */}
