@@ -547,10 +547,10 @@
         font-size: 28px;
         display: inline;
         color: #edeec9;
-        grid-column-start: 2;
-        grid-column-end: 4;
+        grid-column-start: 1;
         margin-top: 50px;
         margin-left:110px;
+        margin-top: -750px;
         text-align: center;
     }
     
@@ -560,10 +560,9 @@
         grid-column-end: 4;
         text-align: center;
         margin-top: -700px;
-        margin-left: -7px;
         padding-top: -10px;
         font-size: 22px;
-        width: 500px;
+        width: 400px;
     }
     
     .greyBox {
@@ -608,12 +607,12 @@
         margin: 4px 2px;
         cursor: pointer;
         grid-row-start: 1;
-        width:38vw;
+        width:43vw;
         height:60px;
         font-family: 'Lexend Zetta', sans-serif;
         padding-bottom: 5px;
-        grid-column-start: 5;
-        margin-top: 360px;
-        margin-left: 45px;
+        grid-column-start: 3;
+        margin-top: 380px;
+        margin-left: 85px;
     }
 }
