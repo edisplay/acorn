@@ -7,10 +7,10 @@ import Gsaphero from './components/Gsaphero/Gsaphero';
 import Reservations from './components/Reservations/Reservations';
 import Menu from './components/Menu/Menu';
 import Seasonal from './components/Seasonal/Seasonal';
-import Polygon from './components/Polygon/Polygon';
-import Gallery from './components/Gallery/Gallery';
-import Hours from './components/Hours/Hours';
-import Footer from './components/Footer/Footer';
+// import Polygon from './components/Polygon/Polygon';
+// import Gallery from './components/Gallery/Gallery';
+// import Hours from './components/Hours/Hours';
+// import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -21,10 +21,10 @@ function App() {
       <Reservations className="reservations"/>
       <Menu className="menu"/>
       <Seasonal className="seasonal"/>
-      <Polygon />
+      {/* <Polygon />
       <Gallery className="gallery"/>
       <Hours className="hours"/>
-      <Footer className="footer"/>
+      <Footer className="footer"/> */}
     </div>
   );
 }
