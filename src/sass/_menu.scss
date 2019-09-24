@@ -374,3 +374,12 @@
         font-size: 20px;
     }
 }    
+
+@media screen and (max-width: 570px) {
+    .menuItems {
+        color: #edeec9;
+        margin-left: 20px;
+        padding-bottom:1px;
+        font-size: 18px;
+    }
+}    
