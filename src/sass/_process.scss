@@ -2,24 +2,35 @@
     background-color:#30332e;
     display: grid;
     grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     height: 580px;
 }
 
 
 .processDiv {
     width: 400px;
+    margin-top: 30px;
     text-align: center;
     padding: 10px;
     grid-column-start: 2;
     justify-content: center;
 }
 
+.processHeading {
+    font-family: 'Lexend Zetta', sans-serif;
+    padding-bottom: 10px;
+    font-size: 28px;
+    color: #edeec9;
+    border-bottom: 1px solid white;
+}
+
 .summary {
     color: #edeec9;
+    padding-top: 10px;
     grid-column-start: 2;
     grid-column-end: 4;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .button {
@@ -34,7 +45,7 @@
     cursor: pointer;
     grid-column-start: 3;
     margin-top: 50px;
-    width:200px;
+    width:17vw;
     height:60px;
     font-family: 'Lexend Zetta', sans-serif;
     padding-bottom: 5px;
@@ -42,13 +53,43 @@
     grid-column-end: 4;
 }
 
+.greyBox {
+    height: 460px;
+    background-color: #7A8693;
+    grid-column-start: 5;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    margin-top: 70px;
+    z-index: 1;
+}
+
+.dish {
+    height: 400px;
+    width: 500px;
+    margin-top: 30px;
+    grid-column-start:9;
+    grid-row-start: 1;
+    z-index: 5;
+}
+
+.chef {
+    height: 350px;
+    width: 550px;
+    margin-top: 45px;
+    grid-column-start: 8;
+    grid-row-start: 1;
+    margin-right: -100px;
+    z-index: 10;
+}    
+
+
 @media screen and (max-width: 470px) {
     .process {
         width: auto;
         background-color:#30332e;
         display: grid;
         grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
-        height: 580px;
+        height: 880px;
     }
     
     
@@ -80,11 +121,43 @@
         cursor: pointer;
         grid-column-start: 3;
         margin-top: 50px;
-        width:200px;
+        width:70vw;
         height:60px;
         font-family: 'Lexend Zetta', sans-serif;
         padding-bottom: 5px;
         grid-column-start: 2;
         grid-column-end: 4;
     }
+
+    .greyBox {
+        height: 260px;
+        background-color: #7A8693;
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        margin-top: 70px;
+        z-index: 1;
+    }
+    
+    .dish {
+        height: 200px;
+        width: 250px;
+        margin-top: 30px;
+        grid-column-start:5;
+        grid-column-start:6;
+        grid-row-start: 2;
+        margin-left: -290px;
+        z-index: 5;
+    }
+    
+    .chef {
+        height: 150px;
+        width: 300px;
+        margin-top: 170px;
+        margin-left: -380px;
+        grid-column-start: 5;
+        grid-column-start: 6;
+        grid-row-start: 2;
+        z-index: 10;
+    }    
 }
