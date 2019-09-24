@@ -44,6 +44,7 @@
 
 @media screen and (max-width: 470px) {
     .process {
+        width: auto;
         background-color:#30332e;
         display: grid;
         grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
