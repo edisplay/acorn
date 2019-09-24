@@ -82,6 +82,96 @@
     z-index: 10;
 }    
 
+@media screen and (max-width: 570px) {
+    .process {
+        background-color:#30332e;
+        display: grid;
+        grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: 680px;
+        width: 100vw;
+    }
+    
+    .processDiv {
+        width: 400px;
+        margin-top: 30px;
+        text-align: center;
+        padding: 10px;
+        grid-column-start: 6;
+        justify-content: center;
+        margin-left: -80px;
+    }
+    
+    .processHeading {
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 10px;
+        font-size: 28px;
+        color: #edeec9;
+        border-bottom: 1px solid white;
+    }
+    
+    .summary {
+        color: #edeec9;
+        padding-top: 10px;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .button {
+        background-color: #30332e;
+        color: white;
+        border: 1px solid white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        grid-column-start: 3;
+        margin-top: 50px;
+        width:37vw;
+        height:60px;
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 5px;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        margin-bottom: 10px;
+    }
+    
+    .greyBox {
+        height: 260px;
+        background-color: #7A8693;
+        grid-column-start: 5;
+        grid-column-end: 10;
+        width: 300px;
+        grid-row-start: 2;
+        margin-top: 0px;
+        z-index: 1;
+    }
+    
+    .dish {
+        height: 200px;
+        width: 300px;
+        margin-top: 30px;
+        grid-column-start:3;
+        grid-row-start: 2;
+        z-index: 5;
+        margin-right: -400px;
+    }
+    
+    .chef {
+        height: 150px;
+        width: 250px;
+        margin-top: 45px;
+        grid-column-start: 8;
+        grid-row-start: 2;
+        z-index: 10;
+        margin-left: -290px;
+    } 
+}    
+
 
 @media screen and (max-width: 470px) {
     .process {
@@ -89,7 +179,7 @@
         background-color:#30332e;
         display: grid;
         grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
-        height: 980px;
+        height: 780px;
     }
     
     
@@ -161,3 +251,180 @@
         z-index: 10;
     }    
 }
+
+@media screen and (max-width: 400px) {
+    .process {
+        width: auto;
+        background-color:#30332e;
+        display: grid;
+        grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
+        height: 780px;
+    }
+    
+    
+    .processDiv {
+        width: 100vw;
+        text-align: center;
+        padding: 10px;
+        grid-column-start: 5;
+        justify-content: center;
+    }
+
+    .processHeading {
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 10px;
+        font-size: 20px;
+        color: #edeec9;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    
+    .summary {
+        color: #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        text-align: center;
+        font-size: 16px;
+        width: 90vw;
+    }
+    
+    .button {
+        background-color: #30332e;
+        color: white;
+        border: 1px solid white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        grid-column-start: 3;
+        margin-top: 50px;
+        width:70vw;
+        height:60px;
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 5px;
+    }
+
+    .greyBox {
+        height: 260px;
+        background-color: #7A8693;
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        margin-top: 90px;
+        width: 200px;
+        margin-left: 80px;
+        z-index: 1;
+    }
+    
+    .dish {
+        height: 100px;
+        width: 150px;
+        margin-top: 30px;
+        grid-column-start:5;
+        grid-column-start:6;
+        grid-row-start: 2;
+        margin-left: -340px;
+        z-index: 5;
+    }
+    
+    .chef {
+        height: 120px;
+        width: 200px;
+        margin-top: 110px;
+        margin-left: -310px;
+        grid-column-start: 5;
+        grid-column-start: 6;
+        grid-row-start: 2;
+        z-index: 10;
+    }
+}    
+
+@media screen and (max-width: 320px) {
+    .process {
+        width: auto;
+        background-color:#30332e;
+        display: grid;
+        grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
+        height: 780px;
+    }
+    
+    
+    .processDiv {
+        width: 100vw;
+        text-align: center;
+        padding: 10px;
+        grid-column-start: 5;
+        justify-content: center;
+    }
+
+    .processHeading {
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 10px;
+        font-size: 20px;
+        color: #edeec9;
+        text-align: center;
+        border-bottom: 1px solid white;
+    }
+    
+    .summary {
+        color: #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        text-align: center;
+        font-size: 16px;
+        width: 90vw;
+    }
+    
+    .button {
+        background-color: #30332e;
+        color: white;
+        border: 1px solid white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        grid-column-start: 3;
+        margin-top: 50px;
+        width:70vw;
+        height:60px;
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 5px;
+    }
+
+    .greyBox {
+        height: 260px;
+        background-color: #7A8693;
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row-start: 2;
+        margin-top: 90px;
+        width: 200px;
+        z-index: 1;
+    }
+    
+    .dish {
+        height: 200px;
+        width: 250px;
+        margin-top: 30px;
+        grid-column-start:5;
+        grid-column-start:6;
+        grid-row-start: 2;
+        margin-left: -300px;
+        z-index: 5;
+    }
+    
+    .chef {
+        height: 150px;
+        width: 300px;
+        margin-top: 170px;
+        margin-left: -310px;
+        grid-column-start: 5;
+        grid-column-start: 6;
+        grid-row-start: 2;
+        z-index: 10;
+    } 
+}    

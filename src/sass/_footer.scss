@@ -51,7 +51,7 @@
     .footer {
         margin-top: -1px;
         background-color: #525962;
-        height: 70px;
+        height: 90px;
     }
     
     .footerMessage {
@@ -79,3 +79,11 @@
         text-align: center;
     }
 }    
+
+@media screen and (max-width: 320px) {
+    .footer {
+        margin-top: -1px;
+        background-color: #525962;
+        height: 90px;
+    }
+}       
