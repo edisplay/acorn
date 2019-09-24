@@ -23,4 +23,24 @@
         height:800px;
         background-position: center center;
     }
- }    
+
+    .gsapHeading {
+        font-size: 35px;
+        text-align: center;
+        margin-top: 410px;
+        color: white;
+        font-family: 'Lexend Zetta', sans-serif;
+        z-index: 10;
+    }
+ }  
+ 
+ @media screen and (max-width: 470px) {
+    .gsapHeading {
+        font-size: 25px;
+        text-align: center;
+        margin-top: 410px;
+        color: white;
+        font-family: 'Lexend Zetta', sans-serif;
+        z-index: 10;
+    }
+ }   
