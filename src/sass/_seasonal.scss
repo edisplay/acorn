@@ -19,3 +19,12 @@
     grid-column-start: 1;
     grid-column-end: 5;
 }
+
+@media screen and (max-width: 840px) {
+    .seasonal {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        height: 1100px;
+        margin-top: 890px;
+    }
+}    

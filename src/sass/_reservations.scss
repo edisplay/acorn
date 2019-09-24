@@ -33,3 +33,10 @@
 .openTable {
     margin-top: -80px;
 }
+
+@media screen and (max-width: 840px) {
+    .openTable {
+        margin-top: -80px;
+        display: none;
+    }
+}    
