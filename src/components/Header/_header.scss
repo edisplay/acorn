@@ -224,3 +224,14 @@ a {
     animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   }
 }  
+
+@media screen and (max-width: 570px) {
+  .header {
+    width:100%;
+    background-image: url("background.jpg");
+    background-size: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+}  

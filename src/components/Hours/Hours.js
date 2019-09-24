@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import GoogleMapReact from 'google-map-react';
 import Map from '../Map/Map';
+import Mobilemap from '../Mobilemap/Mobilemap';
 import '../../sass/_hours.scss';
 
 export class Hours extends Component {
@@ -27,6 +28,9 @@ export class Hours extends Component {
                 </div>
                 <div className="map">
                     <Map className="mapActual"/>
+                </div>
+                <div className="mobileMap">
+                    <Mobilemap className="mobileMapActual"/>
                 </div>
             </div>
         )

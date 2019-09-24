@@ -30,10 +30,17 @@ export class Dishitem extends Component {
         const {imgUrl, isLoaded} = this.state;
         if(isLoaded) {
             return (
-                <div className="seasonalApiOutput">
-                    <h2 className="dishTitle">{ title.rendered }</h2>
-                    <img className="dishImage" src={ imgUrl } alt={title.rendered} />
-                    <div className="dishContent" dangerouslySetInnerHTML={{__html: content.rendered}} />
+                <div>
+                    <div className="seasonalApiOutput">
+                        <h2 className="dishTitle">{ title.rendered }</h2>
+                        <img className="dishImage" src={ imgUrl } alt={title.rendered} />
+                        <div className="dishContent" dangerouslySetInnerHTML={{__html: content.rendered}} />
+                    </div>
+                    <div className="mobileApiOutput">
+                    <h2 className="mobileDishTitle">{ title.rendered }</h2>
+                        <img className="mobileDishImage" src={ imgUrl } alt={title.rendered} />
+                        <div className="mobileDishContent" dangerouslySetInnerHTML={{__html: content.rendered}} />
+                    </div>
                 </div>
             )
         }
