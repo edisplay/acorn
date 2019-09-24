@@ -59,7 +59,7 @@
         margin-top: 1000px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        height: 1160px;
+        height: 1960px;
     }
     
     .seasonalHeading {
@@ -67,10 +67,11 @@
         margin-top:-130px;
         border-bottom: 1px solid black;
         height: 50px;
-        width:500px;
+        width:300px;
         font-family: 'Lexend Zetta', sans-serif;
         grid-column-start: 3;
         justify-content:center;
+        font-size: 23px;
     }
     
     .dishItems {
