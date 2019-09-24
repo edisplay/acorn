@@ -235,3 +235,13 @@ a {
     height: 1000px;
 }
 }  
+
+@media screen and (max-width: 470px) {
+  .header {
+    width: 470px;
+    background-image: url("background.jpg");
+    background-size: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+}  
