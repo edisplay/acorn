@@ -46,3 +46,29 @@
         color: #1da1f2;
     }
 }    
+
+@media screen and (max-width: 570px) {
+    .footer {
+        background-color: #525962;
+        height: 60px;
+    }
+    
+    .footerMessage {
+        text-align: center;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        font-size: 11px;
+    }
+    
+    .social {
+        margin-right: 20px;
+        font-size: 18px;
+        color: #3b5998;
+    }
+    
+    .social2 {
+        margin-right: 20px;
+        font-size: 18px;
+        color: #1da1f2;
+    }
+}    
