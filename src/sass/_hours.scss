@@ -240,16 +240,19 @@
         grid-row-start: 1;
         color: #edeec9;
         padding: 10px;
-
+        font-size: 13px;
     }
     
     .locale {
-        margin-top: 5px;
+        margin-top: 20px;
+        margin-bottom: -2px;
         margin-left: 50px;
+        font-size: 13px;
     }
     
     #locale1{
         margin-left: 50px;
+        font-size: 13px;
     }
     .map {
         grid-column-start: 6;
