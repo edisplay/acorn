@@ -4,7 +4,7 @@ import './_polygon.scss';
 export class Polygon extends Component {
     render() {
         return (
-            <div>
+            <div className="polygonContainer">
                 <div className="polygonWrap">
                     <div className="polygonDiv">
                     </div>

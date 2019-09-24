@@ -31,8 +31,12 @@
 }    
 
 @media screen and (max-width: 470px) {
+    .polygonContainer {
+        margin-top: 700px;
+    }
+
     .polygonWrap {
-        filter: drop-shadow(-2px -5px 2px rgba(0,0,0,0.8))
+        filter: drop-shadow(-2px -5px 2px rgba(0,0,0,0.8));
     }
     
     .polygonDiv {
