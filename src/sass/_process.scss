@@ -1,0 +1,37 @@
+.process {
+    background-color: #30332e;
+}
+
+.processDiv {
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+.summary {
+    color: #edeec9;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+    font-size: 16px;
+}
+
+.button {
+    background-color: #30332e;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    grid-column-start: 3;
+    margin-top: 50px;
+    width:200px;
+    height:60px;
+    font-family: 'Lexend Zetta', sans-serif;
+    padding-bottom: 5px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
