@@ -117,10 +117,10 @@
     }
 
     .mobileDishImage {
-        margin-top: -44px;
         margin-bottom: 10px;
         margin-left: 0px;
-        width:30vw;
+        height:600px;
+        width:400px;
         height:100px;
         grid-column-start: 2;
         z-index: 1;
@@ -132,7 +132,7 @@
         grid-column-start: 4;
         grid-column-end: 10;
         margin-bottom: 30px;
-        width: 100px;
+        width: 300px;
         margin-left: 50px;
     }
 }    
