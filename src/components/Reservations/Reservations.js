@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import '../../sass/_reservations.scss';
 
 export class Reservations extends Component {
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
 
-    componentDidMount() {
-        const script = document.createElement("script");
+    // componentDidMount() {
+    //     const script = document.createElement("script");
 
-        script.src = "//www.opentable.com/widget/reservation/loader?rid=412810&type=standard&theme=wide&iframe=true&overlay=false&domain=com&lang=en-US";
-        script.async = true;
+    //     script.src = "//www.opentable.com/widget/reservation/loader?rid=412810&type=standard&theme=wide&iframe=true&overlay=false&domain=com&lang=en-US";
+    //     script.async = true;
 
-        document.body.appendChild(script);
-    }
+    //     document.body.appendChild(script);
+    // }
 
     render() {
         return (

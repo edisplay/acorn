@@ -206,8 +206,9 @@
         display: grid;
         grid-template-columns: repeat(28, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        height: 970px;
+        height: 930px;
         padding: 20px;
+        margin-top: -80px;
     }
     
     #hoursCard {
