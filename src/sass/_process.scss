@@ -1,11 +1,17 @@
 .process {
-    background-color: #30332e;
+    background-color:#30332e;
+    display: grid;
+    grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
+    height: 580px;
 }
+
 
 .processDiv {
     width: 400px;
     text-align: center;
     padding: 10px;
+    grid-column-start: 5;
+    justify-content: center;
 }
 
 .summary {
