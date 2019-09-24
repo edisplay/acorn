@@ -6,7 +6,7 @@ import Process from './components/Process/Process';
 import Gsaphero from './components/Gsaphero/Gsaphero';
 import Reservations from './components/Reservations/Reservations';
 import Menu from './components/Menu/Menu';
-// import Seasonal from './components/Seasonal/Seasonal';
+import Seasonal from './components/Seasonal/Seasonal';
 import Polygon from './components/Polygon/Polygon';
 import Gallery from './components/Gallery/Gallery';
 import Hours from './components/Hours/Hours';
@@ -20,7 +20,7 @@ function App() {
       <Gsaphero className="gsaphero"/>
       <Reservations className="reservations"/>
       <Menu className="menu"/>
-      {/* <Seasonal className="seasonal"/> */}
+      <Seasonal className="seasonal"/>
       <Polygon />
       <Gallery className="gallery"/>
       <Hours className="hours"/>
