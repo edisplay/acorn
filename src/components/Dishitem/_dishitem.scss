@@ -27,3 +27,32 @@
     width: 30vw;
     font-weight: 600;
 }
+
+@media screen and (max-width: 1052px) {
+    .dishImage {
+        margin-top: -44px;
+        margin-bottom: 10px;
+        width:300px;
+        height:300px;
+        grid-column-start: 2;
+    }
+
+    .dishContent {
+        margin-top: 15px;
+        font-size: 24px;
+        grid-column-start: 4;
+        grid-column-end: 10;
+    }
+    
+    .dishTitle {
+        margin-top: 15px;
+        grid-column-start:4;
+        grid-column-end: 6;
+        font-size: 23px;
+        margin-bottom: 25px;
+        border-bottom: 1px solid black;
+        font-family: 'Lexend Zetta', sans-serif;
+        width: 30vw;
+        font-weight: 600;
+    }
+}    

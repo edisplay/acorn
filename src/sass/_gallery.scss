@@ -64,3 +64,15 @@
     grid-row-start: 3;
     grid-row-end: 6;
 }
+
+@media screen and (max-width: 840px) {
+    .gallery {
+        padding: 30px;
+        background-color:#525962;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: repeat(5, 5vw);
+        grid-gap: 15px;
+        height: 330px;
+    }
+}  
