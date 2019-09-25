@@ -28,7 +28,7 @@
     font-weight: 600;
 }
 
-@media screen and (max-width: 1052px) {
+@media screen and (min-width: 1052px) {
     .dishImage {
         margin-top: -44px;
         margin-bottom: 10px;
@@ -129,6 +129,45 @@
         grid-column-end: 10;
         margin-bottom: 30px;
         width: 300px;
+        margin-left: 50px;
+    }
+} 
+
+@media screen and (min-width: 470px) {
+    .mobileDishImage {
+        margin-bottom: 10px;
+        height:250px;
+        width:80vw;
+        margin-left: 35px;
+    }
+
+    .mobileDishContent {
+        margin-top: 15px;
+        font-size: 22px;
+        grid-column-start: 4;
+        grid-column-end: 10;
+        margin-bottom: 30px;
+        width: 350px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    
+    .mobileDishImage {
+        margin-bottom: 10px;
+        height:250px;
+        width:80vw;
+        margin-left: 35px;
+    }
+
+    .mobileDishContent {
+        margin-top: 15px;
+        font-size: 18px;
+        grid-column-start: 4;
+        grid-column-end: 10;
+        margin-bottom: 30px;
+        width: 230px;
         margin-left: 50px;
     }
 }    
