@@ -82,31 +82,116 @@
     z-index: 10;
 }    
 
-
-@media screen and (min-width: 470px) {
+@media (min-width: 300px) and (max-width: 320px){
     .process {
-        width: auto;
         background-color:#30332e;
-        display: grid;
-        grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
-        height: 1050px;
+        height: 830px;
     }
     
-    
     .processDiv {
-        width: 400px;
+        width: 270px;
+        margin-top:30px;
         text-align: center;
         padding: 10px;
-        grid-column-start: 5;
-        justify-content: center;
+        grid-column-start: 2;
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+        display:none;
+    }
+    
+    .processHeading {
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 10px;
+        font-size: 18px;
+        color: #edeec9;
+        border-bottom: 1px solid white;
+        width: 200px;
+        display: none;
     }
     
     .summary {
         color: #edeec9;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 14px;
+        display: none;
+    }
+    
+    .button {
+        display: none;
+    }
+    
+    .greyBox {
+        height: 460px;
+        background-color: #7A8693;
+        grid-column-start: 5;
+        grid-column-end: 10;
+        grid-row-start: 1;
+        margin-top: 70px;
+        z-index: 1;
+        display:none;
+    }
+    
+    .dish {
+        height: 200px;
+        width: 220px;
+        margin-top: 30px;
+        grid-row-start: 2;
+        z-index: 5;
+        margin-left: -320px;
+    }
+    
+    .chef {
+        height: 150px;
+        width: 200px;
+        margin-top: 205px;
+        grid-row-start: 2;
+        margin-left: -270px;
+        z-index: 10;
+    }  
+
+    .mobileContainer {
+        text-align: center;
+        width: 200px;
+    }
+
+
+}
+
+@media (min-width: 320px) and (max-width: 375px){
+    .process {
+        background-color:#30332e;
+        display: grid;
+        grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: 830px;
+    }
+    
+    .processDiv {
+        width: 290px;
+        margin-top: 30px;
+        text-align: center;
+        padding: 10px;
+        grid-column-start: 2;
+        margin-left: 37px;
+    }
+    
+    .processHeading {
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 10px;
+        font-size: 28px;
+        color: #edeec9;
+        border-bottom: 1px solid white;
+    }
+    
+    .summary {
+        color: #edeec9;
+        padding-top: 10px;
         grid-column-start: 2;
         grid-column-end: 4;
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
     }
     
     .button {
@@ -117,82 +202,166 @@
         text-align: center;
         display: inline-block;
         font-size: 16px;
-        margin: 4px 2px;
         cursor: pointer;
         grid-column-start: 3;
         margin-top: 50px;
-        width:70vw;
+        width:17vw;
         height:60px;
         font-family: 'Lexend Zetta', sans-serif;
         padding-bottom: 5px;
-        grid-column-start: 2;
-        grid-column-end: 4;
+        width: 80vw;
+        margin-left: -8px;
     }
-
+    
     .greyBox {
-        height: 260px;
+        height: 460px;
         background-color: #7A8693;
-        grid-row-start: 2;
-        width: 200px;
+        grid-column-start: 5;
+        grid-column-end: 10;
+        grid-row-start: 1;
         margin-top: 70px;
-        margin-left: -60px;
         z-index: 1;
     }
     
     .dish {
         height: 200px;
-        width: 250px;
+        width: 220px;
         margin-top: 30px;
-        grid-column-start:5;
-        grid-column-start:6;
         grid-row-start: 2;
-        margin-left: -190px;
         z-index: 5;
+        margin-left: -220px;
     }
     
     .chef {
         height: 150px;
-        width: 300px;
-        margin-top: 170px;
-        margin-left: -180px;
-        grid-column-start: 5;
-        grid-column-start: 6;
+        width: 200px;
+        margin-top: 145px;
         grid-row-start: 2;
+        margin-left: -270px;
         z-index: 10;
-    } 
+    }  
+}
+
+@media (min-width: 375px) and (max-width: 470px){
+    .process {
+        background-color:#30332e;
+        grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: 830px;
+    }
+    
+    .processDiv {
+        width: 270px;
+        margin-top:30px;
+        text-align: center;
+        padding: 10px;
+        grid-column-start: 2;
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+    }
     
     .processHeading {
         font-family: 'Lexend Zetta', sans-serif;
         padding-bottom: 10px;
-        font-size: 24px;
+        font-size: 18px;
         color: #edeec9;
         border-bottom: 1px solid white;
+        width: 200px;
+        margin-left: 34px;
+    }
+    
+    .summary {
+        color: #edeec9;
+        padding-top: 10px;
+        text-align: center;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    
+    .button {
+        background-color: #30332e;
+        color: white;
+        border: 1px solid white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+        grid-column-start: 3;
+        margin-top: 50px;
+        width: 175px;
+        height:50px;
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 5px;
+        width: 60vw;
+        margin-left: 20px;
+    }
+    
+    .greyBox {
+        height: 460px;
+        background-color: #7A8693;
+        grid-column-start: 5;
+        grid-column-end: 10;
+        grid-row-start: 1;
+        margin-top: 70px;
+        z-index: 1;
+    }
+    
+    .dish {
+        height: 200px;
+        width: 220px;
+        margin-top: 30px;
+        grid-row-start: 2;
+        z-index: 5;
+        margin-left: -220px;
+    }
+    
+    .chef {
+        height: 150px;
+        width: 200px;
+        margin-top: 145px;
+        grid-row-start: 2;
+        margin-left: -270px;
+        z-index: 10;
     }
 }
 
-@media screen and (min-width: 320px) {
+@media (min-width: 470px) and (max-width: 570px){
     .process {
-        width: auto;
         background-color:#30332e;
         display: grid;
         grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
-        height: 980px;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: 830px;
     }
     
     .processDiv {
-        width: 320px;
+        width: 400px;
+        margin-top: 30px;
         text-align: center;
         padding: 10px;
-        grid-column-start: 5;
-        justify-content: center;
+        grid-column-start: 2;
+        margin-left: 37px;
+    }
+    
+    .processHeading {
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 10px;
+        font-size: 30px;
+        color: #edeec9;
+        border-bottom: 1px solid white;
+        width: 300px;
     }
     
     .summary {
         color: #edeec9;
+        padding-top: 10px;
         grid-column-start: 2;
         grid-column-end: 4;
         text-align: center;
-        font-size: 16px;
+        font-size: 18px;
+        margin-left: -20px;
     }
     
     .button {
@@ -203,55 +372,42 @@
         text-align: center;
         display: inline-block;
         font-size: 16px;
-        margin: 4px 2px;
         cursor: pointer;
         grid-column-start: 3;
         margin-top: 50px;
-        width:70vw;
+        width:17vw;
         height:60px;
         font-family: 'Lexend Zetta', sans-serif;
         padding-bottom: 5px;
-        grid-column-start: 2;
-        grid-column-end: 4;
+        width: 80vw;
+        margin-left: -8px;
     }
-
+    
     .greyBox {
-        height: 260px;
+        height: 460px;
         background-color: #7A8693;
-        grid-row-start: 2;
-        width: 300px;
+        grid-column-start: 5;
+        grid-column-end: 10;
+        grid-row-start: 1;
         margin-top: 70px;
-        margin-left: -60px;
         z-index: 1;
     }
     
     .dish {
-        height: 200px;
-        width: 200px;
+        height: 300px;
+        width: 320px;
         margin-top: 30px;
-        grid-column-start:5;
-        grid-column-start:6;
         grid-row-start: 2;
-        margin-left: -250px;
         z-index: 5;
+        margin-left: -330px;
     }
     
     .chef {
-        height: 150px;
-        width: 230px;
-        margin-top: 170px;
-        margin-left: -290px;
-        grid-column-start: 5;
-        grid-column-start: 6;
+        height: 250px;
+        width: 300px;
+        margin-top: 245px;
         grid-row-start: 2;
+        margin-left: -420px;
         z-index: 10;
-    } 
-    
-    .processHeading {
-        font-family: 'Lexend Zetta', sans-serif;
-        padding-bottom: 10px;
-        font-size: 24px;
-        color: #edeec9;
-        border-bottom: 1px solid white;
-    }
+    }  
 }    
