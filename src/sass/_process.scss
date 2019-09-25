@@ -91,7 +91,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        height: 780px;
+        height: 580px;
     }
     
     
@@ -250,6 +250,7 @@
         grid-column-start:9;
         grid-row-start: 2;
         z-index: 5;
+        display: none;
     }
     
     .chef {
@@ -260,6 +261,7 @@
         grid-row-start: 2;
         margin-right: -100px;
         z-index: 10;
+        display: none;
     } 
 }  
 
