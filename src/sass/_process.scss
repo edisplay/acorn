@@ -97,7 +97,6 @@
         text-align: center;
         display: inline-block;
         margin: auto;
-        display:none;
     }
     
     .processHeading {
@@ -107,20 +106,35 @@
         color: #edeec9;
         border-bottom: 1px solid white;
         width: 200px;
-        display: none;
     }
     
     .summary {
         color: #edeec9;
         padding-top: 10px;
         text-align: center;
-        font-size: 14px;
-        display: none;
+        font-size: 12px;
+        width: 200px;
     }
     
     .button {
-        display: none;
+        background-color: #30332e;
+        color: white;
+        border: 1px solid white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 12px;
+        cursor: pointer;
+        grid-column-start: 3;
+        margin-top: 50px;
+        width:17vw;
+        height:50px;
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 5px;
+        width: 200px;
+        margin-left: -44px;
     }
+    
     
     .greyBox {
         height: 460px;
@@ -130,33 +144,25 @@
         grid-row-start: 1;
         margin-top: 70px;
         z-index: 1;
-        display:none;
     }
     
     .dish {
-        height: 200px;
-        width: 220px;
-        margin-top: 30px;
+        height: 100px;
+        width: 200px;
+        margin-top: 60px;
         grid-row-start: 2;
         z-index: 5;
-        margin-left: -320px;
+        margin-left: -280px;
     }
     
     .chef {
         height: 150px;
         width: 200px;
-        margin-top: 205px;
+        margin-top: 145px;
         grid-row-start: 2;
         margin-left: -270px;
         z-index: 10;
     }  
-
-    .mobileContainer {
-        text-align: center;
-        width: 200px;
-    }
-
-
 }
 
 @media (min-width: 320px) and (max-width: 375px){
