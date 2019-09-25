@@ -652,6 +652,244 @@
 }    
 
 @media (min-width: 321px) and (max-width: 375px){
+    .menu {
+        background-color:white;
+        display:grid;
+        grid-template-columns: repeat(21, 1fr);
+        grid-template-rows: repeat(21, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        margin-bottom: 240px;
+        height: 800px;
+    }
+    
+    #menu1 {
+        background-color: #30332e;
+        height: 650px;
+        grid-column-start: 3;
+        grid-column-end: 20;
+        margin-top: -110px;
+        z-index: 1;
+        -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+    }
+    
+    #menu2 {
+        background-color: #30332e;
+        height: 650px;
+        grid-column-start: 3;
+        grid-column-end: 20;
+        grid-row-start: 2;
+        margin-top: 20px;
+        -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+    }
+    
+    #menu3 {
+        background-color: #30332e;
+        height: 650px;
+        grid-column-start: 3;
+        grid-column-end: 20;
+        margin-top: 20px;
+        -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+    }
+    
+    #cardInner1 {
+        background-color: #edeec9;
+        height:630px;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:10px;
+        z-index:2
+    }
+    
+    #cardInner2 {
+        background-color: #edeec9;
+        height:630px;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:10px;
+        z-index:2;
+        grid-row-start: 2;
+    }
+    
+    #cardInner3 {
+        background-color: #edeec9;
+        height:630px;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:10px;
+        z-index:2;
+    }
+    
+    #innest1 {
+        background-color: #30332e;
+        padding-top: -20px;
+        height: 610px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -620px;
+        z-index:5;
+    }
+    
+    #innest2 {
+        background-color: #30332e;
+        padding-top: -10px;
+        height: 610px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -620px;
+        z-index:5;
+        grid-row-start: 2;
+    }
+    
+    #innest3 {
+        background-color: #30332e;
+        padding-top: -10px;
+        height: 610px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -620px;
+        z-index:5;
+    }
+
+    .lunchHeading {
+        color: #edeec9;
+        font-weight:100;
+        grid-column-start: 3;
+        z-index: 100;
+        margin-left: 20px;
+        // padding-bottom: 0px;
+    }
+    
+    .menuItems {
+        color: #edeec9;
+        margin-left: 20px;
+        padding-bottom:1px;
+        font-size: 16px;
+    }
+} 
+
+@media (min-width: 300px) and (max-width: 320px){
+    .menu {
+        background-color:white;
+        display:grid;
+        grid-template-columns: repeat(21, 1fr);
+        grid-template-rows: repeat(21, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        margin-bottom: 240px;
+        height: 800px;
+    }
+    
+    #menu1 {
+        background-color: #30332e;
+        height: 650px;
+        grid-column-start: 3;
+        grid-column-end: 20;
+        margin-top: -110px;
+        z-index: 1;
+        -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+    }
+    
+    #menu2 {
+        background-color: #30332e;
+        height: 650px;
+        grid-column-start: 3;
+        grid-column-end: 20;
+        grid-row-start: 2;
+        margin-top: 20px;
+        -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+    }
+    
+    #menu3 {
+        background-color: #30332e;
+        height: 650px;
+        grid-column-start: 3;
+        grid-column-end: 20;
+        margin-top: 20px;
+        -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+    }
+    
+    #cardInner1 {
+        background-color: #edeec9;
+        height:630px;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:10px;
+        z-index:2
+    }
+    
+    #cardInner2 {
+        background-color: #edeec9;
+        height:630px;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:10px;
+        z-index:2;
+        grid-row-start: 2;
+    }
+    
+    #cardInner3 {
+        background-color: #edeec9;
+        height:630px;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:10px;
+        z-index:2;
+    }
+    
+    #innest1 {
+        background-color: #30332e;
+        padding-top: -20px;
+        height: 610px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -620px;
+        z-index:5;
+    }
+    
+    #innest2 {
+        background-color: #30332e;
+        padding-top: -10px;
+        height: 610px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -620px;
+        z-index:5;
+        grid-row-start: 2;
+    }
+    
+    #innest3 {
+        background-color: #30332e;
+        padding-top: -10px;
+        height: 610px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: -620px;
+        z-index:5;
+    }
+
     .lunchHeading {
         color: #edeec9;
         font-weight:100;
@@ -666,23 +904,5 @@
         margin-left: 20px;
         padding-bottom:1px;
         font-size: 15px;
-    }
-} 
-
-@media (min-width: 300px) and (max-width: 320px){
-    .lunchHeading {
-        color: #edeec9;
-        font-weight:100;
-        grid-column-start: 3;
-        z-index: 100;
-        margin-left: 20px;
-        // padding-bottom: 0px;
-    }
-    
-    .menuItems {
-        color: #edeec9;
-        margin-left: 20px;
-        padding-bottom:1px;
-        font-size: 12px;
     }
 }    

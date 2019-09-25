@@ -26,24 +26,123 @@
     font-family: 'Lexend Zetta', sans-serif;
     width: 30vw;
     font-weight: 600;
-}
+}   
 
-@media screen and (min-width: 1052px) {
-    .dishImage {
-        margin-top: -44px;
-        margin-bottom: 10px;
-        width:300px;
-        height:300px;
-        grid-column-start: 2;
+@media (min-width: 1113px) and (max-width: 1800px){
+    .mobileApiOutput {
+        display:none;
     }
+}    
 
-    .dishContent {
-        margin-top: 15px;
-        font-size: 24px;
-        grid-column-start: 4;
-        grid-column-end: 10;
+@media (min-width: 835px) and (max-width: 1112px){
+    .mobileApiOutput {
+        margin-top: 30px;
     }
     
+    .seasonalApiOutput {
+        display:none;
+    }
+    
+    .mobileDishImage {
+        margin-bottom: 10px;
+        height:450px;
+        width:80vw;
+        margin-left: 35px;
+    }
+    
+    .mobileDishContent {
+        margin-top: 15px;
+        font-size: 22px;
+        grid-column-start: 4;
+        grid-column-end: 10;
+        margin-bottom: 30px;
+        width: 80vw;
+        margin-left: 40px;
+    }
+    
+    .mobileDishTitle {
+        margin-top: 20px;
+        grid-column-start:4;
+        grid-column-end: 6;
+        font-size: 27px;
+        margin-bottom: 25px;
+        font-family: 'Lexend Zetta', sans-serif;
+        width: 60vw;
+        font-weight: 600;
+        }
+}    
+
+  
+
+@media (min-width: 569px) and (max-width: 834px){
+
+.mobileApiOutput {
+    margin-top: -10px;
+}
+
+.seasonalApiOutput {
+    display:none;
+}
+
+.mobileDishImage {
+    margin-bottom: 10px;
+    height:250px;
+    width:80vw;
+    margin-left: 35px;
+}
+
+.dishTitle {
+    margin-top: 15px;
+    grid-column-start:4;
+    grid-column-end: 6;
+    font-size: 23px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid black;
+    font-family: 'Lexend Zetta', sans-serif;
+    width: 30vw;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
+.mobileDishContent {
+    margin-top: 15px;
+    font-size: 22px;
+    grid-column-start: 4;
+    grid-column-end: 10;
+    margin-bottom: 30px;
+    width: 80vw;
+    margin-left: 40px;
+}
+
+.mobileDishTitle {
+    margin-top: 20px;
+    grid-column-start:4;
+    grid-column-end: 6;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-family: 'Lexend Zetta', sans-serif;
+    width: 60vw;
+    font-weight: 600;
+    }
+}
+
+@media (min-width: 471px) and (max-width: 568px){
+
+    .mobileApiOutput {
+        margin-top: -10px;
+    }
+
+    .seasonalApiOutput {
+        display:none;
+    }
+
+    .mobileDishImage {
+        margin-bottom: 10px;
+        height:250px;
+        width:80vw;
+        margin-left: 35px;
+    }
+
     .dishTitle {
         margin-top: 15px;
         grid-column-start:4;
@@ -54,91 +153,7 @@
         font-family: 'Lexend Zetta', sans-serif;
         width: 30vw;
         font-weight: 600;
-    }
-}    
-
-@media screen and (min-width: 771px) {
-    .mobileApiOutput {
-        display: none;
-    }
-}   
-
-@media screen and (max-width: 770px) {
-    .seasonalApiOutput {
-        display: none;
-    }
-
-    .mobileApiOutput {
-        margin-top: 10px;
-    }
-
-    .mobileDishTitle {
-        margin-bottom: 60px;
-        margin-left: 50px;
-        grid-column-start: 4;
-        font-family: 'Lexend Zetta', sans-serif;
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .mobileDishImage {
-        margin-top: -44px;
-        margin-bottom: 10px;
-        margin-left: 95px;
-        width:550px;
-        height:300px;
-        grid-column-start: 2;
-        z-index: 1;
-    }
-
-    .mobileDishContent {
-        margin-top: 15px;
-        font-size: 24px;
-        grid-column-start: 4;
-        grid-column-end: 10;
-        margin-bottom: 30px;
-        width: 500px;
-        margin-left: 120px;
-    }
-}    
-
-@media screen and (max-width: 570px) {
-    .mobileApiOutput {
-        margin-top: -10px;
-    }
-
-    .mobileDishTitle {
-        margin-bottom: 60px;
-        font-family: 'Lexend Zetta', sans-serif;
-        font-size: 20px;
-        text-align: center;
-        margin-left: 7px;
-    }
-
-    .mobileDishImage {
-        margin-bottom: 10px;
-        height:300px;
-        width:80vw;
-        margin-left: 35px;
-    }
-
-    .mobileDishContent {
-        margin-top: 15px;
-        font-size: 24px;
-        grid-column-start: 4;
-        grid-column-end: 10;
-        margin-bottom: 30px;
-        width: 300px;
-        margin-left: 50px;
-    }
-} 
-
-@media screen and (min-width: 470px) {
-    .mobileDishImage {
-        margin-bottom: 10px;
-        height:250px;
-        width:80vw;
-        margin-left: 35px;
+        margin-left: 25px;
     }
 
     .mobileDishContent {
@@ -147,18 +162,101 @@
         grid-column-start: 4;
         grid-column-end: 10;
         margin-bottom: 30px;
-        width: 350px;
-        margin-left: 50px;
+        width: 80vw;
+        margin-left: 40px;
+    }
+
+    .mobileDishTitle {
+        margin-top: 20px;
+        grid-column-start:4;
+        grid-column-end: 6;
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-family: 'Lexend Zetta', sans-serif;
+        width: 60vw;
+        font-weight: 600;
     }
 }
 
-@media screen and (max-width: 320px) {
-    
+@media (min-width: 415px) and (max-width: 470px){
     .mobileDishImage {
         margin-bottom: 10px;
         height:250px;
         width:80vw;
         margin-left: 35px;
+    }
+
+    .seasonalApiOutput {
+        display:none;
+    }
+
+    .mobileDishContent {
+        margin-top: 15px;
+        font-size: 22px;
+        grid-column-start: 4;
+        grid-column-end: 10;
+        margin-bottom: 30px;
+        width: 80vw;
+        margin-left: 50px;
+    }
+
+    .mobileDishTitle {
+        margin-top: 20px;
+        grid-column-start:4;
+        grid-column-end: 6;
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-family: 'Lexend Zetta', sans-serif;
+        width: 60vw;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 414px){
+    .mobileDishImage {
+        margin-bottom: 10px;
+        height:250px;
+        width:80vw;
+        margin-left: 35px;
+    }
+
+    .seasonalApiOutput {
+        display:none;
+    }
+
+    .mobileDishContent {
+        margin-top: 0px;
+        font-size: 22px;
+        grid-column-start: 4;
+        grid-column-end: 10;
+        margin-bottom: 30px;
+        width: 80vw;
+        margin-left: 50px;
+    }
+
+    .mobileDishTitle {
+        margin-top: 20px;
+        grid-column-start:4;
+        grid-column-end: 6;
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-family: 'Lexend Zetta', sans-serif;
+        width: 60vw;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+}    
+
+@media screen and (max-width: 320px) {
+    .mobileApiOutput {
+        padding-left: 20px;
+    }
+    .mobileDishImage {
+        margin-bottom: 10px;
+        height:250px;
+        width:80vw;
+        margin-left: 15px;
     }
 
     .mobileDishContent {
@@ -168,6 +266,22 @@
         grid-column-end: 10;
         margin-bottom: 30px;
         width: 230px;
-        margin-left: 50px;
+        margin-left: 30px;
+    }
+
+    .mobileDishTitle {
+        margin-top: 20px;
+        grid-column-start:4;
+        grid-column-end: 6;
+        font-size: 18px;
+        margin-bottom: 25px;
+        font-family: 'Lexend Zetta', sans-serif;
+        width: 60vw;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+
+    .seasonalApiOutput {
+        display:none;
     }
 }    
