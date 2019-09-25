@@ -429,6 +429,91 @@
     } 
 }    
 
+@media (min-width: 569px) and (max-width: 767px){
+    .process {
+        background-color:#30332e;
+        display: grid;
+        grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: 1080px;
+    }
+    
+    
+    #processCard {
+        width: 400px;
+        margin-top: 30px;
+        text-align: center;
+        padding: 10px;
+        justify-content: center;
+        grid-column-start: 5;
+    }
+    
+    .processHeading {
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 10px;
+        text-align: center;
+        font-size: 28px;
+        color: #edeec9;
+        border-bottom: 1px solid white;
+    }
+    
+    .summary {
+        color: #edeec9;
+        padding-top: 10px;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .button {
+        background-color: #30332e;
+        color: white;
+        border: 1px solid white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        grid-column-start: 3;
+        margin-top: 50px;
+        width:37vw;
+        height:60px;
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 5px;
+    }
+    
+    .greyBox {
+        height: 460px;
+        background-color: #7A8693;
+        grid-column-start: 5;
+        grid-column-end: 10;
+        grid-row-start: 1;
+        margin-top: 70px;
+        z-index: 1;
+    }
+    
+    .dish {
+        height: 400px;
+        width: 400px;
+        margin-top: 30px;
+        grid-column-start:5;
+        grid-row-start: 2;
+        z-index: 5;
+    }
+    
+    .chef {
+        height: 350px;
+        width: 410px;
+        margin-top: 285px;
+        grid-column-start: 5;
+        grid-row-start: 2;
+        margin-left: 20px;
+        z-index: 10;
+    } 
+}    
+
 @media (min-width: 471px) and (max-width: 568px){
     .process {
         background-color:#30332e;
