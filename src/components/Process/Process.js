@@ -20,26 +20,15 @@ export class Process extends Component {
     render() {
         return (
             <div className="process">
-                {/* <div className="processDiv">
-                    <h1 className="processHeading">Our Process</h1> 
-                    <p className="summary">Locally-sourced, fresh ingredients come together under the thoughtful, creative care of our chefs. Gifts of nature prepared and arranged so as to emphasize their flavors in a way that creates novel experiences for the palate.</p>
-                    <div className="button">Learn More</div>
-                </div> */}
                 <div className="column" id="processCard">
                     <div className="card">
                     <h1 className="processHeading">Our Process</h1>
                     <p className="summary">Locally-sourced, fresh ingredients come together under the thoughtful, creative care of our chefs. Gifts of nature prepared and arranged so as to emphasize their flavors in a way that creates novel experiences for the palate.</p>
                     <div className="button">Learn More</div>
                     </div>
-                </div>
-
-
-
-
-
-{/* 
+                </div> 
                     <img className="dish" data-aos="fade-up" src={Bowl}/>
-                    <img className="chef" data-aos="fade-down" src={Chef2}/>                     */}
+                    <img className="chef" data-aos="fade-down" src={Chef2}/>                    
             </div>
         )
     }
