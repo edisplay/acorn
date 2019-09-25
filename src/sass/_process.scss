@@ -7,18 +7,19 @@
 }
 
 
-.processDiv {
+#processCard {
     width: 400px;
     margin-top: 30px;
     text-align: center;
     padding: 10px;
-    grid-column-start: 2;
     justify-content: center;
+    grid-column-start: 3
 }
 
 .processHeading {
     font-family: 'Lexend Zetta', sans-serif;
     padding-bottom: 10px;
+    text-align: center;
     font-size: 28px;
     color: #edeec9;
     border-bottom: 1px solid white;
@@ -85,35 +86,40 @@
 @media (min-width: 300px) and (max-width: 320px){
     .process {
         background-color:#30332e;
-        height: 830px;
+        display: grid;
+        grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        height: 580px;
     }
     
-    .processDiv {
-        width: 270px;
-        margin-top:30px;
+    
+    #processCard {
+        width: 260px;
+        margin-top: 30px;
         text-align: center;
         padding: 10px;
-        grid-column-start: 2;
-        text-align: center;
-        display: inline-block;
-        margin: auto;
+        justify-content: center;
+        grid-column-start: 3
     }
     
     .processHeading {
         font-family: 'Lexend Zetta', sans-serif;
         padding-bottom: 10px;
-        font-size: 18px;
+        text-align: center;
+        font-size: 28px;
         color: #edeec9;
         border-bottom: 1px solid white;
-        width: 200px;
+        margin-left: 20px;
     }
     
     .summary {
         color: #edeec9;
         padding-top: 10px;
+        grid-column-start: 2;
+        grid-column-end: 4;
         text-align: center;
-        font-size: 12px;
-        width: 200px;
+        font-size: 18px;
+        margin-left: 20px;
     }
     
     .button {
@@ -123,18 +129,18 @@
         padding: 15px 32px;
         text-align: center;
         display: inline-block;
-        font-size: 12px;
+        font-size: 16px;
+        margin: 4px 2px;
         cursor: pointer;
         grid-column-start: 3;
         margin-top: 50px;
-        width:17vw;
-        height:50px;
+        width: 260px;
+        height:60px;
         font-family: 'Lexend Zetta', sans-serif;
         padding-bottom: 5px;
-        width: 200px;
-        margin-left: -44px;
+        grid-column-start: 2;
+        grid-column-end: 4;
     }
-    
     
     .greyBox {
         height: 460px;
@@ -147,45 +153,48 @@
     }
     
     .dish {
-        height: 100px;
-        width: 200px;
-        margin-top: 60px;
-        grid-row-start: 2;
+        height: 400px;
+        width: 500px;
+        margin-top: 30px;
+        grid-column-start:9;
+        grid-row-start: 1;
         z-index: 5;
-        margin-left: -280px;
     }
     
     .chef {
-        height: 150px;
-        width: 200px;
-        margin-top: 145px;
-        grid-row-start: 2;
-        margin-left: -270px;
+        height: 350px;
+        width: 550px;
+        margin-top: 45px;
+        grid-column-start: 8;
+        grid-row-start: 1;
+        margin-right: -100px;
         z-index: 10;
-    }  
+    }    
 }
 
-@media (min-width: 320px) and (max-width: 375px){
+@media (min-width: 321px) and (max-width: 375px){
     .process {
         background-color:#30332e;
         display: grid;
         grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        height: 830px;
+        height: 580px;
     }
     
-    .processDiv {
-        width: 290px;
+    
+    #processCard {
+        width: 300px;
         margin-top: 30px;
         text-align: center;
         padding: 10px;
-        grid-column-start: 2;
-        margin-left: 37px;
+        justify-content: center;
+        grid-column-start: 3
     }
     
     .processHeading {
         font-family: 'Lexend Zetta', sans-serif;
         padding-bottom: 10px;
+        text-align: center;
         font-size: 28px;
         color: #edeec9;
         border-bottom: 1px solid white;
@@ -208,185 +217,16 @@
         text-align: center;
         display: inline-block;
         font-size: 16px;
+        margin: 4px 2px;
         cursor: pointer;
         grid-column-start: 3;
         margin-top: 50px;
-        width:17vw;
+        width: 260px;
         height:60px;
         font-family: 'Lexend Zetta', sans-serif;
         padding-bottom: 5px;
-        width: 80vw;
-        margin-left: -8px;
-    }
-    
-    .greyBox {
-        height: 460px;
-        background-color: #7A8693;
-        grid-column-start: 5;
-        grid-column-end: 10;
-        grid-row-start: 1;
-        margin-top: 70px;
-        z-index: 1;
-    }
-    
-    .dish {
-        height: 200px;
-        width: 220px;
-        margin-top: 30px;
-        grid-row-start: 2;
-        z-index: 5;
-        margin-left: -220px;
-    }
-    
-    .chef {
-        height: 150px;
-        width: 200px;
-        margin-top: 145px;
-        grid-row-start: 2;
-        margin-left: -270px;
-        z-index: 10;
-    }  
-}
-
-@media (min-width: 375px) and (max-width: 470px){
-    .process {
-        background-color:#30332e;
-        grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        height: 830px;
-    }
-    
-    .processDiv {
-        width: 270px;
-        margin-top:30px;
-        text-align: center;
-        padding: 10px;
-        grid-column-start: 2;
-        text-align: center;
-        display: inline-block;
-        margin: auto;
-    }
-    
-    .processHeading {
-        font-family: 'Lexend Zetta', sans-serif;
-        padding-bottom: 10px;
-        font-size: 18px;
-        color: #edeec9;
-        border-bottom: 1px solid white;
-        width: 200px;
-        margin-left: 34px;
-    }
-    
-    .summary {
-        color: #edeec9;
-        padding-top: 10px;
-        text-align: center;
-        font-size: 14px;
-        margin-left: 25px;
-    }
-    
-    .button {
-        background-color: #30332e;
-        color: white;
-        border: 1px solid white;
-        padding: 15px 32px;
-        text-align: center;
-        display: inline-block;
-        font-size: 12px;
-        cursor: pointer;
-        grid-column-start: 3;
-        margin-top: 50px;
-        width: 175px;
-        height:50px;
-        font-family: 'Lexend Zetta', sans-serif;
-        padding-bottom: 5px;
-        width: 60vw;
-        margin-left: 20px;
-    }
-    
-    .greyBox {
-        height: 460px;
-        background-color: #7A8693;
-        grid-column-start: 5;
-        grid-column-end: 10;
-        grid-row-start: 1;
-        margin-top: 70px;
-        z-index: 1;
-    }
-    
-    .dish {
-        height: 200px;
-        width: 220px;
-        margin-top: 30px;
-        grid-row-start: 2;
-        z-index: 5;
-        margin-left: -220px;
-    }
-    
-    .chef {
-        height: 150px;
-        width: 200px;
-        margin-top: 145px;
-        grid-row-start: 2;
-        margin-left: -270px;
-        z-index: 10;
-    }
-}
-
-@media (min-width: 470px) and (max-width: 570px){
-    .process {
-        background-color:#30332e;
-        display: grid;
-        grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        height: 830px;
-    }
-    
-    .processDiv {
-        width: 400px;
-        margin-top: 30px;
-        text-align: center;
-        padding: 10px;
-        grid-column-start: 2;
-        margin-left: 37px;
-    }
-    
-    .processHeading {
-        font-family: 'Lexend Zetta', sans-serif;
-        padding-bottom: 10px;
-        font-size: 30px;
-        color: #edeec9;
-        border-bottom: 1px solid white;
-        width: 300px;
-    }
-    
-    .summary {
-        color: #edeec9;
-        padding-top: 10px;
         grid-column-start: 2;
         grid-column-end: 4;
-        text-align: center;
-        font-size: 18px;
-        margin-left: -20px;
-    }
-    
-    .button {
-        background-color: #30332e;
-        color: white;
-        border: 1px solid white;
-        padding: 15px 32px;
-        text-align: center;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-        grid-column-start: 3;
-        margin-top: 50px;
-        width:17vw;
-        height:60px;
-        font-family: 'Lexend Zetta', sans-serif;
-        padding-bottom: 5px;
-        width: 80vw;
-        margin-left: -8px;
     }
     
     .greyBox {
@@ -400,20 +240,21 @@
     }
     
     .dish {
-        height: 300px;
-        width: 320px;
+        height: 400px;
+        width: 500px;
         margin-top: 30px;
-        grid-row-start: 2;
+        grid-column-start:9;
+        grid-row-start: 1;
         z-index: 5;
-        margin-left: -330px;
     }
     
     .chef {
-        height: 250px;
-        width: 300px;
-        margin-top: 245px;
-        grid-row-start: 2;
-        margin-left: -420px;
+        height: 350px;
+        width: 550px;
+        margin-top: 45px;
+        grid-column-start: 8;
+        grid-row-start: 1;
+        margin-right: -100px;
         z-index: 10;
     }  
-}    
+}       
