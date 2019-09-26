@@ -15,7 +15,7 @@ export class Dishitem extends Component {
 
     componentDidMount() {
         const { featured_media } = this.props.dish
-        const getImageUrl = axios.get(`http://127.0.0.1:8000/wp-json/wp/v2/media/${featured_media}`);
+        const getImageUrl = axios.get(`http://54.189.169.39/wp-json/wp/v2/media/${featured_media}`);
 
         Promise.all([getImageUrl]).then(res => {
             this.setState({
@@ -50,3 +50,5 @@ export class Dishitem extends Component {
 }
 
 export default Dishitem
+
+
