@@ -21,6 +21,7 @@ export class Seasonal extends Component {
     }
     
     render() {
+            console.log(this.state);
             const { dishes, isLoaded } = this.state;
             if(isLoaded) {
             return (
