@@ -3,6 +3,7 @@ import GoogleMapReact from 'google-map-react';
 import Map from '../Map/Map';
 import Mobilemap from '../Mobilemap/Mobilemap';
 import '../../sass/_hours.scss';
+import { Link } from 'react-router-dom';
 
 export class Hours extends Component {
     render() {
@@ -22,7 +23,7 @@ export class Hours extends Component {
                     <br/>
                     <p className="locale">Location - 3350 Brighton Boulevard, Denver, CO, 80216</p>
                     <p className="locale">Phone - (720) 542 - 3721</p>
-                    <p id="locale1">Would you like to join the team? Click here.</p>
+                    <p id="locale1">Would you like to join the team? Click <Link to="/join-our-team">here</Link>.</p>
                 </div>
                 </div>
                 </div>

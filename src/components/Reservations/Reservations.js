@@ -19,13 +19,13 @@ export class Reservations extends Component {
         return (
             <div className="reservations">
                 <div className="resHeading">
-                    <h2>Reservations</h2>
+                    <h2 id="reservationsAnchor">Reservations</h2>
                     <div className="divider"></div>
                     {/* <div className="openTable">
                         <script className="openTable" type='text/javascript' src='//www.opentable.com/widget/reservation/loader?rid=412810&type=standard&theme=wide&iframe=true&overlay=false&domain=com&lang=en-US'></script>
                     </div> */}
                 </div>
-                <h1 className="menuHeading">Menu</h1>
+                <h1 className="menuHeading" id="menuAnchor">Menu</h1>
             </div>
         )
     }
