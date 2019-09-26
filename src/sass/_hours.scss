@@ -137,122 +137,65 @@
     }
 }  
 
-@media screen and (max-width: 570px) {
-        .hours {
+@media (min-width: 813px) and (max-width: 1400px){
+    .hours {
         background-color:#525962;
-        display: grid;
-        grid-template-columns: repeat(28, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        height: 970px;
+        height: 770px;
         padding: 30px;
-    }
-    
-    #hoursCard {
-        background-color: #edeec9; 
-        grid-column-start: 6;
-        grid-column-end: 24;
-        -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
-        -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
-        box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
-        z-index: 4;
-        height: 380px;
-        margin-left: -0px;
-    }
-    
-    #hoursCardInner {
-        background-color: #30332e; 
-        height:360px;
-        grid-column-start: 1;
-        grid-column-end: 14;
-        margin-left:10px;
-        margin-right:10px;
-        margin-top:10px;
-        margin-bottom: 10px;
-        z-index:1;
-
-    }
-    
-    .hoursContent {
-        grid-column-start: 1;
-        grid-row-start: 1;
-        color: #edeec9;
-        padding: 10px;
-
-    }
-    
-    .locale {
-        margin-left: 140px;
-    }
-    
-    #locale1{
-        margin-left: 140px;
-    }
-    .map {
-        grid-column-start: 6;
-        grid-column-end: 24;
-        display:none;
+        margin-top: -20px;
+        margin-bottom: 30px;
     }
 
     .mobileMap {
-        grid-row-start: 2;
+        margin-left: -65px;
         margin-top: 20px;
-        margin-left: -0px;
+        width: 400px;
+    }
+    .locale {
+        margin-left: 20px;
+    }
+    
+    #locale1{
+        margin-left: 20px;
     }
 }    
 
-@media screen and (max-width: 470px) {
+@media (min-width: 551px) and (max-width: 812px){
     .hours {
         background-color:#525962;
-        display: grid;
-        grid-template-columns: repeat(28, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        height: 930px;
-        padding: 20px;
-        margin-top: -80px;
+        height: 770px;
+        padding: 30px;
+        margin-top: -20px;
+        margin-bottom: 30px;
     }
-    
-    #hoursCard {
-        background-color: #edeec9; 
-        grid-column-start: 1;
-        grid-column-end: 29;
-        -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
-        -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
-        box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
-        z-index: 4;
-        height: 380px;
-    }
-    
-    #hoursCardInner {
-        background-color: #30332e; 
-        height:360px;
-        grid-column-start: 1;
-        grid-column-end: 14;
-        margin-left:10px;
-        margin-right:10px;
-        margin-top:10px;
-        margin-bottom: 10px;
-        z-index:1;
 
-    }
-    
-    .hoursContent {
-        grid-column-start: 1;
-        grid-row-start: 1;
-        color: #edeec9;
-        padding: 10px;
-        font-size: 13px;
-    }
-    
-    .locale {
+    .mobileMap {
+        margin-left: -65px;
         margin-top: 20px;
-        margin-bottom: -2px;
-        margin-left: 50px;
-        font-size: 13px;
+        width: 400px;
+    }
+    .locale {
+        margin-left: 20px;
     }
     
     #locale1{
-        margin-left: 50px;
-        font-size: 13px;
+        margin-left: 20px;
+    }
+}    
+
+@media (min-width: 471px) and (max-width: 550px){
+    .mobileMap {
+        margin-left: -25px;
+        margin-top: -20px;
+        width: 400px;
+    }
+
+    .locale {
+        margin-left: 20px;
+    }
+    
+    #locale1{
+        margin-left: 20px;
     }
     .map {
         grid-column-start: 6;
@@ -262,7 +205,36 @@
 
     .mobileMap {
         grid-row-start: 2;
-        margin-top: 13px;
-        margin-left: -17px;
+        grid-column-start: 6;
     }
-}       
+}
+
+@media (min-width: 375px) and (max-width: 470px){
+    .mobileMap {
+        margin-left: -5px;
+        margin-top: -20px;
+        width: 400px;
+    }
+
+    .hours {
+        background-color:#525962;
+        height: 470px;
+        padding: 30px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 375px){
+    .mobileMap {
+        margin-left: -5px;
+        margin-top: -20px;
+    }
+}
+
+
+
+@media (min-width: 300px) and (max-width: 320px){
+    .mobileMap {
+        margin-left: -5px;
+        margin-top: -20px;
+    }
+}   

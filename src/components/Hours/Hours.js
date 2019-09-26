@@ -12,7 +12,6 @@ export class Hours extends Component {
                 <div className="card" id="hoursCardInner">
                 <div className="hoursContent">
                     <p>Hours:</p>
-                    <br/>
                     <p>Monday-Closed</p>
                     <p>Tuesday-11:30A-10p</p>
                     <p>Wednesday-11:30A-10p</p>
@@ -20,6 +19,7 @@ export class Hours extends Component {
                     <p>Friday-11:30A-10p</p>
                     <p>Saturday-11:30A-10p</p>
                     <p>Sunday-11:30A-10p</p>
+                    <br/>
                     <p className="locale">Location - 3350 Brighton Boulevard, Denver, CO, 80216</p>
                     <p className="locale">Phone - (720) 542 - 3721</p>
                     <p id="locale1">Would you like to join the team? Click here.</p>

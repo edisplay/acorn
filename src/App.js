@@ -7,9 +7,9 @@ import Gsaphero from './components/Gsaphero/Gsaphero';
 import Reservations from './components/Reservations/Reservations';
 import Menu from './components/Menu/Menu';
 import Seasonal from './components/Seasonal/Seasonal'; // Test on S3 for mobile WITH Wordpress deploy!...
-// import Gallery from './components/Gallery/Gallery';
-// import Hours from './components/Hours/Hours';
-// import Footer from './components/Footer/Footer';
+import Gallery from './components/Gallery/Gallery';
+import Hours from './components/Hours/Hours';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -20,9 +20,9 @@ function App() {
       <Reservations className="reservations"/>
       <Menu className="menu"/>
       <Seasonal className="seasonal"/>
-      {/* <Gallery className="gallery"/>
+      <Gallery className="gallery"/>
       <Hours className="hours"/>
-      <Footer className="footer"/> */}
+      <Footer className="footer"/>
     </div>
   );
 }
