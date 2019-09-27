@@ -1,17 +1,17 @@
 import React, { Component } from 'react'
-import './employment.scss';
+import './employment2.scss';
 
 export class Employment extends Component {
     render() {
         return (
-            <div>
+            <div className="contactContainer">
                 			<form action="POST" data-netlify="true" className="contactForm">
 								<div class="fields">
 									<div class="field half">
 										<input type="text" name="name" id="name" placeholder="Name" className="fieldCon" id="inputCon"/>
 									</div>
 									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" className="fieldCon" id="inputCon"/>
+										<input type="email" name="email" id="email" placeholder="Email" className="fieldCon" />
 									</div>
 									<div class="field">
 										<textarea name="message" id="message" placeholder="Message" rows="7" className="fieldCon" id="messageForm"></textarea>
@@ -26,7 +26,7 @@ export class Employment extends Component {
                                     </div>
                                 </div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" /></li>
+									<li><input type="submit" value="Send Message"  /></li>
 								</ul>
 							</form>
             </div>

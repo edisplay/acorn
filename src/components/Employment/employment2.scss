@@ -1,0 +1,23 @@
+.contactContainer {
+    height: 100vh;
+    background-color: #525962;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.contactForm {
+    text-align: center;
+    grid-row-start: 3;
+}
+
+.fieldCon {
+    width: 35vw;
+}
+
+#messageForm {
+    height: 40vh;
+}
+
+#idCon {
+    height: 20px;
+}
