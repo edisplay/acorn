@@ -1,0 +1,59 @@
+.aboutContainer {
+    display: grid;
+    grid-template-columns: 1fr 50px repeat(5, 1fr) 1fr;
+    grid-template-rows: 100px 50px 1fr 100px 1fr 50px 1fr;
+    background-color: #30332e;
+    padding-top: 10px;
+    height: 94vh;
+}
+
+.contBorder {
+    border: 3px solid #edeec9;
+    grid-column-start: 2;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+
+.aboutImage1 {
+    height: 30vh;
+    width: 30vw;
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.aboutImage2 {
+    height: 30vh;
+    width: 30vw;
+    grid-row-start: 5;
+    grid-column-start: 3;
+}
+
+.aboutBryan {
+    border: 3px solid #edeec9;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    margin-left: -120px;
+    margin-right: -80px;
+    color: #edeec9;
+    padding: 10px;
+    font-size: 21px;
+}
+
+.aboutChefIan {
+    border: 3px solid #edeec9;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    margin-left: -120px;
+    margin-right: -80px;
+    color: #edeec9;
+    padding: 10px;
+    font-size: 21px;
+}
+
+.footer {
+    grid-row-start: 9;
+    margin-bottom: -200px;
+}

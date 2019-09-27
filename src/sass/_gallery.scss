@@ -78,15 +78,22 @@
     }
 }  
 
-@media screen and (max-width: 470px) {
+// MISSING API FIX, DELETE WHEN DONE
+// @media (min-width: 471px) and (max-width: 568px){
+//     .gallery {
+//         margin-top: -300px;
+//     }
+   
+//
+
+@media (min-width: 321px) and (max-width: 800px){
+    .gallery {
+        margin-top: 1000px;
+    }
+}    
+
+@media (min-width: 300px) and (max-width: 320px){
     .gallery {
         margin-top: -300px;
-        padding: 30px;
-        background-color:#525962;
-        display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(5, 5vw);
-        grid-gap: 15px;
-        height: 330px;
     }
 }    

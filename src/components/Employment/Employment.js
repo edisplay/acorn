@@ -4,8 +4,11 @@ import './employment2.scss';
 export class Employment extends Component {
     render() {
         return (
-            <div className="contactContainer">
-                			<form method="POST" data-netlify="true" className="contactForm">
+            <div className="contact">
+                    <h1 className="contactHeading">Please Paste Your Cover Letter and Attach Your Resume</h1>
+                            <div className="contactContainer">
+                            
+                			<form action="//formspree.io/james@lusciden.com" method="POST">
 								<div class="fields">
 									<div class="field half">
 										<input type="text" name="name" id="name" placeholder="Name" className="fieldCon" id="inputCon"/>
@@ -21,9 +24,10 @@ export class Employment extends Component {
 									</div>
 								</div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="button primary" className="button" /></li>
+									<li><input type="submit" value="Send Message" class="button primary" className="buttonEmp" /></li>
 								</ul>
 							</form>
+            </div>
             </div>
         )
     }

@@ -10,23 +10,23 @@ export class Hours extends Component {
         return (
             <div className="hours">
                 <div className="card" id="hoursCard">
-                <div className="card" id="hoursCardInner">
-                <div className="hoursContent">
-                    <p>Hours:</p>
-                    <p>Monday-Closed</p>
-                    <p>Tuesday-11:30A-10p</p>
-                    <p>Wednesday-11:30A-10p</p>
-                    <p>Thursday-11:30A-10p</p>
-                    <p>Friday-11:30A-10p</p>
-                    <p>Saturday-11:30A-10p</p>
-                    <p>Sunday-11:30A-10p</p>
-                    <br/>
-                    <p className="locale">Location - 3350 Brighton Boulevard, Denver, CO, 80216</p>
-                    <p className="locale">Phone - (720) 542 - 3721</p>
-                    <p id="locale1">Would you like to join the team? Click <Link to="/join-our-team">here</Link>.</p>
-                </div>
-                </div>
-                </div>
+                        <div className="card" id="hoursCardInner">
+                            <div className="hoursContent">
+                                <p>Hours:</p>
+                                <p>Monday-Closed</p>
+                                <p>Tuesday-11:30A-10p</p>
+                                <p>Wednesday-11:30A-10p</p>
+                                <p>Thursday-11:30A-10p</p>
+                                <p>Friday-11:30A-10p</p>
+                                <p>Saturday-11:30A-10p</p>
+                                <p>Sunday-11:30A-10p</p>
+                                <br/>
+                                <p className="locale">Location - 3350 Brighton Boulevard, Denver, CO, 80216</p>
+                                <p className="locale">Phone - (720) 542 - 3721</p>
+                                <p id="locale1">Would you like to join the team? Click <Link to="/join-our-team">here</Link>.</p>
+                            </div>
+                        </div>
+                    </div>
                 <div className="map">
                     <Map className="mapActual"/>
                 </div>
