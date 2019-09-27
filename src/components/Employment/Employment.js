@@ -8,10 +8,10 @@ export class Employment extends Component {
                 			<form action="POST" data-netlify="true" className="contactForm">
 								<div class="fields">
 									<div class="field half">
-										<input type="text" name="name" id="name" placeholder="Name" className="fieldCon"/>
+										<input type="text" name="name" id="name" placeholder="Name" className="fieldCon" id="inputCon"/>
 									</div>
 									<div class="field half">
-										<input type="email" name="email" id="email" placeholder="Email" className="fieldCon"/>
+										<input type="email" name="email" id="email" placeholder="Email" className="fieldCon" id="inputCon"/>
 									</div>
 									<div class="field">
 										<textarea name="message" id="message" placeholder="Message" rows="7" className="fieldCon" id="messageForm"></textarea>
