@@ -1,13 +1,16 @@
 import React, { Component } from 'react'
+import Footer from '../Footer/Footer';
+import { Link } from 'react-router-dom'
 import './employment2.scss';
 
 export class Employment extends Component {
     render() {
         return (
             <div className="contact">
-                    <h1 className="contactHeading">Please Paste Your Cover Letter and Attach Your Resume</h1>
+				<Footer className="footer" />
                             <div className="contactContainer">
-                            
+							<div className="button" id="employmentButton"><Link to="/">Return Home</Link></div>
+							<h1 className="contactHeading">Please Paste Your Cover Letter and Attach Your Resume</h1>
                 			<form action="//formspree.io/james@lusciden.com" method="POST">
 								<div class="fields">
 									<div class="field half">

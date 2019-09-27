@@ -4,7 +4,7 @@
     grid-template-rows: 100px 50px 1fr 100px 1fr 50px 1fr;
     background-color: #30332e;
     padding-top: 10px;
-    height: 94vh;
+    height: 91.8vh;
 }
 
 .contBorder {
@@ -56,4 +56,11 @@
 .footer {
     grid-row-start: 9;
     margin-bottom: -200px;
+}
+
+#aboutButton {
+    grid-column-start: 4;
+    grid-column-end: 9;
+    margin-left: -50px;
+    margin-top: 10px;
 }

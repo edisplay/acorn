@@ -9,7 +9,7 @@ export class About extends Component {
     render() {
         return (
         <div className="aboutContainer">
-            <div class="button"></div>
+            <div class="button" id="aboutButton"><Link to="/">Return Home</Link></div>
             <div className="contBorder">
                 </div>
                     <img className="aboutImage1" src={Bryan}/>
