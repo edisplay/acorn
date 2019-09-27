@@ -5,7 +5,7 @@ export class Employment extends Component {
     render() {
         return (
             <div className="contactContainer">
-                			<form action="POST" action="https://formspree.io/james@lusciden.com" className="contactForm">
+                			<form method="POST" action="https://formspree.io/james@lusciden.com" className="contactForm">
 								<div class="fields">
 									<div class="field half">
 										<input type="text" name="name" id="name" placeholder="Name" className="fieldCon" id="inputCon"/>
@@ -17,7 +17,7 @@ export class Employment extends Component {
 										<textarea name="message" id="message" placeholder="Message" rows="7" className="fieldCon" id="messageForm"></textarea>
 									</div>
                                     <div class="field">
-										<input type="file" name="attachment"></input>
+										<input type="file" name="attachment" accept="image/png, image/jpeg, docx, doc"></input>
 									</div>
 								</div>
 								<ul class="actions">
