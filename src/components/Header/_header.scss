@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  z-index: 1;
+  z-index: 9999;
 }
 
 .acorn {
@@ -816,8 +816,8 @@ a {
   position: fixed;
   width: 100%;
   background-color: white;
-  height: 6vh;
-  z-index: 500000000;
+  height: 70px;
+  z-index: 9999;
 }
 
 .acornMobile {
