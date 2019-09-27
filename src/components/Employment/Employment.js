@@ -26,7 +26,7 @@ export class Employment extends Component {
                                     </div>
                                 </div>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message"  /></li>
+									<li><input type="submit" value="Send Message" class="button primary" className="button" /></li>
 								</ul>
 							</form>
             </div>
