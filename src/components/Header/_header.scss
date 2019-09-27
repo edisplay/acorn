@@ -816,13 +816,20 @@ a {
   position: fixed;
   width: 100%;
   background-color: white;
+  display: flex;
   height: 70px;
   z-index: 9999;
+  margin-bottom: 200px;
 }
 
 .acornMobile {
-  height: 5vh;
-  width: 5vw;
+  height: 60px;
+  width: 60px;
   margin-left: 20px;
   margin-top: 5px;
+}
+
+.mobileNavItems {
+  height: 200px;
+  width: 200px;
 }

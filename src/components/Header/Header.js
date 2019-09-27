@@ -12,12 +12,12 @@ export class Header extends Component {
                 <div className="mobileNavbar">
                     <nav className="mobileNavbarNavigation">
                         <div></div>
-                        <div><Link><img className="acornMobile" src={Mobileicon}/></Link></div>
+                        <div><Link to="/"><img className="acornMobile" src={Mobileicon}/></Link></div>
                         <div className="mobileNavItems">
                             <ul>
-                                <li><Link>About</Link></li>
-                                <li><Link>Employment</Link></li>
-                                <li><Link>Private Dining</Link></li>
+                                <li>
+                                    <a>TESTING...</a>
+                                </li>
                             </ul>
                         </div>
                     </nav>
