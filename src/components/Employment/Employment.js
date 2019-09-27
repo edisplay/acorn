@@ -21,9 +21,7 @@ export class Employment extends Component {
 									</div>
 								</div>
                                 <div class="field">
-                                    <div data-netlify-recaptcha="true">
-
-                                    </div>
+                                    <div data-netlify-recaptcha></div>
                                 </div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" class="button primary" className="button" /></li>
