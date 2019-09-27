@@ -5,7 +5,7 @@ export class Employment extends Component {
     render() {
         return (
             <div>
-                			{/* <form action="POST" data-netlify="true">
+                			<form action="POST" data-netlify="true" className="contactForm">
 								<div class="fields">
 									<div class="field half">
 										<input type="text" name="name" id="name" placeholder="Name" />
@@ -28,7 +28,7 @@ export class Employment extends Component {
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" class="button primary" /></li>
 								</ul>
-							</form> */}
+							</form>
             </div>
         )
     }
