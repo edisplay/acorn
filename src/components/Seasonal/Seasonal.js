@@ -12,7 +12,7 @@ export class Seasonal extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://?????????/wp-json/wp/v2/dishes')
+        axios.get('http://localhost:8000/wp-json/wp/v2/dishes')
             .then(res => this.setState({
                 dishes: res.data,
                 isLoaded: true
