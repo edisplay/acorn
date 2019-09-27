@@ -4,6 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  z-index: 1;
 }
 
 .acorn {
@@ -72,6 +73,10 @@ font-size: 20px;
 animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
 
+
+.mobileNavigation {
+  z-index: 10;
+}
 // Start heading styles
 
 .heroHeading {
@@ -740,7 +745,7 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -500px;
+  margin-top: -460px;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -749,7 +754,7 @@ a {
   color: white;
   font-family: 'Hepta Slab', serif;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
 }
@@ -782,7 +787,7 @@ a {
 // Start heading styles
 
 .heroHeading {
-    margin-top: 260px;
+    margin-top: 370px;
     text-align: center;
     font-size: 30px;
     font-family: 'Lexend Peta', sans-serif;
@@ -793,8 +798,30 @@ a {
 } 
 
 @media (min-width: 1201px) and (max-width: 1355px){
-ul li {
-  display: inline-block;
-  padding: 6vh 6vw;
+    ul li {
+      display: inline-block;
+      padding: 6vh 6vw;
+    }
 }
+
+@media (min-width: 1201px) and (max-width: 5000px){
+  .mobileNavbar {
+    display: none;
+  }
+}  
+
+// Start mobile nav styles...
+
+.mobileNavbar {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  height: 6vh;
+  z-index: 500000000;
+}
+
+.acornMobile {
+  height: 5vh;
+  width: 5vw;
+  text-align: center;
 }

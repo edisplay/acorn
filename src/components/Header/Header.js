@@ -1,13 +1,33 @@
 import React, { Component } from 'react'
 import './_header.scss';
 import Icon from './icon.png';
+import Mobileicon from './acorn.jpg'
 import { Link } from 'react-router-dom';
 
 export class Header extends Component {
     render() {
         return (
             <div className="header">
-               <div >
+                
+                <div className="mobileNavbar">
+                    <nav className="mobileNavbarNavigation">
+                        <div></div>
+                        <div><Link><img className="acornMobile" src={Mobileicon}/></Link></div>
+                        <div className="mobileNavItems">
+                            <ul>
+                                <li><Link>About</Link></li>
+                                <li><Link>Employment</Link></li>
+                                <li><Link>Private Dining</Link></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+
+
+
+
+
+               <div>
                     <ul >
                         <li><a className="btn" href="#menuAnchor">Menu</a></li>
                         <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>

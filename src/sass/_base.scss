@@ -16,6 +16,11 @@ html {
     display: none;
 }
 
+.mobileNav {
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
 .header {
     grid-column-start: 1;
     grid-column-end: 9;
