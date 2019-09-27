@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import './employment.scss';
+import './employment.scss';
 
 export class Employment extends Component {
     render() {
@@ -14,7 +14,7 @@ export class Employment extends Component {
 										<input type="email" name="email" id="email" placeholder="Email" className="fieldCon"/>
 									</div>
 									<div class="field">
-										<textarea name="message" id="message" placeholder="Message" rows="7" className="fieldCon"></textarea>
+										<textarea name="message" id="message" placeholder="Message" rows="7" className="fieldCon" id="messageForm"></textarea>
 									</div>
                                     <div class="field">
 										<input type="file" name="myfile" id="myfile" placeholder="Upload File" rows="7"></input>
