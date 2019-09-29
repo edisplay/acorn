@@ -9,7 +9,7 @@ import Process from './components/Process/Process';
 import Gsaphero from './components/Gsaphero/Gsaphero';
 import Reservations from './components/Reservations/Reservations';
 import Menu from './components/Menu/Menu';
-// import Seasonal from './components/Seasonal/Seasonal'; // Test on S3 for mobile WITH Wordpress deploy!...
+import Seasonal from './components/Seasonal/Seasonal'; // Test on S3 for mobile WITH Wordpress deploy!...
 import Gallery from './components/Gallery/Gallery';
 import Hours from './components/Hours/Hours';
 import Employment from './components/Employment/Employment';
@@ -30,7 +30,7 @@ function App() {
             <Route path="/" component={Gsaphero}/>
             <Route path="/" component={Reservations}/>
             <Route path="/" component={Menu}/>
-            {/* <Route path="/" component={Seasonal}/> */}
+            <Route path="/" component={Seasonal}/>
             <Route path="/" component={Gallery}/>
             <Route path="/" component={Hours}/>
             <Route path="/" component={Footer}/>

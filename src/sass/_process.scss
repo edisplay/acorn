@@ -618,12 +618,12 @@
     
     
     #processCard {
-        width: 410px;
+        width: 360px;
         margin-top: 30px;
         text-align: center;
         padding: 10px;
         justify-content: center;
-        margin-left: 0px;
+        margin-left: 15px;
     }
     
     .processHeading {
@@ -641,7 +641,7 @@
         grid-column-start: 2;
         grid-column-end: 4;
         text-align: center;
-        font-size: 18px;
+        font-size: 20px;
     }
     
     .button {
@@ -682,7 +682,7 @@
         grid-column-start:9;
         grid-row-start: 2;
         z-index: 5;
-        margin-left: -330px;
+        margin-left: -340px;
     }
     
     .chef {

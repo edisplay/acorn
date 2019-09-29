@@ -15,7 +15,7 @@ export class Gallery extends Component {
         return (
             <div className="gallery">
                 <img src={Image1} data-aos='fade-down' alt="Gallery image 1" className="galleryImg" id="galleryImg1" />
-                <img src={Image2} data-aos='fade-up' alt="Gallery image 2" className="galleryImg" id="galleryImg2" />
+                <img src={Image2} data-aos='fade-left' alt="Gallery image 2" className="galleryImg" id="galleryImg2" />
                 <img src={Image3} data-aos='fade-up' alt="Gallery image 3" className="galleryImg" id="galleryImg3" />
                 <img src={Image4} data-aos='fade-right' alt="Gallery image 4" className="galleryImg" id="galleryImg4" />
                 <img src={Image5} data-aos='fade-left' alt="Gallery image 5" className="galleryImg" id="galleryImg5" />

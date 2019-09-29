@@ -298,7 +298,7 @@
     }
 }    
 
-@media (min-width: 375px) and (max-width: 470px){
+@media (min-width: 376px) and (max-width: 470px){
     #hoursCard {
         background-color: #edeec9; 
         grid-column-start: 1;
@@ -309,12 +309,12 @@
         z-index: 4;
         height: 380px;
         margin-top: -140px;
-        margin-left: -15px;
-        width: 370px;
+        margin-left: -5px;
+        width: 365px;
     }
     
     .mobileMap {
-        margin-left: -16px;
+        margin-left: -10px;
         margin-top: 20px;
         width: 400px;
     }
@@ -335,9 +335,39 @@
 }
 
 @media (min-width: 320px) and (max-width: 375px){
+        .hours {
+        background-color:#525962;
+        display: grid;
+        grid-template-columns: repeat(28, 1fr);
+        height: 530px;
+        padding: 30px;
+    }
+    
     .mobileMap {
-        margin-left: -5px;
-        margin-top: -20px;
+        margin-left: -15px; 
+        margin-top: 30px;
+    }
+
+    .hoursContent {
+        grid-column-start: 1;
+        grid-row-start: 1;
+        color: #edeec9;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    #hoursCard {
+        background-color: #edeec9; 
+        grid-column-start: 1;
+        grid-column-end: 14;
+        -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
+        z-index: 4;
+        height: 380px;
+        margin-top: -140px;
+        margin-left: -15px;
+        width: 340px;
     }
 }
 
