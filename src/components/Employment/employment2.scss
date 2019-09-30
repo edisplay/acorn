@@ -73,7 +73,38 @@
     margin-bottom: -100px;
 }
 
-@media (min-width: 601px) and (max-width: 700px){
+.footer {
+    background-color: #525962;
+    height: 90px;
+}
+
+.footerMessage {
+    text-align: center;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    margin-top: 20px;
+}
+
+.socialFooter {
+    margin-top:10px;
+    text-align: center;
+}
+
+.socialCon {
+    margin-right: 20px;
+    font-size: 25px;
+    color: #3b5998;
+    width: 20px;
+}
+
+.social2Con {
+    margin-left: 20px;
+    font-size: 25px;
+    color: #1da1f2;
+    width: 20px;
+}
+
+@media (min-width: 601px) and (max-width: 1160px){
     .contact {
         height: 100vh;
         background-color: #525962;
@@ -302,7 +333,7 @@
 
 @media (min-width: 321px) and (max-width: 400px){
     .contact {
-        height: 100vh;
+        height: 104vh;
         background-color: #525962;
         display: grid;
         grid-template-rows: repeat(6, 1fr);
@@ -378,7 +409,7 @@
 
 @media (min-width: 300px) and (max-width: 320px){
     .contact {
-        height: 100vh;
+        height: 101vh;
         background-color: #525962;
         display: grid;
         grid-template-rows: repeat(6, 1fr);
@@ -450,5 +481,35 @@
     
     #employmentButton {
         margin-bottom: -100px;
+    }
+    .footer {
+        background-color: #525962;
+        height: 90px;
+    }
+    
+    .footerMessage {
+        text-align: center;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-top: 20px;
+    }
+    
+    .socialFooter {
+        margin-top:10px;
+        text-align: center;
+    }
+    
+    .socialCon {
+        margin-right: 20px;
+        font-size: 25px;
+        color: #3b5998;
+        width: 20px;
+    }
+    
+    .social2Con {
+        margin-left: 20px;
+        font-size: 25px;
+        color: #1da1f2;
+        width: 20px;
     }
 }    

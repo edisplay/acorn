@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom'
 import './employment2.scss';
+import { FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
 
 export class Employment extends Component {
     render() {
@@ -29,6 +30,11 @@ export class Employment extends Component {
 									<li><input type="submit" value="Send Message" class="button primary" className="buttonEmp" /></li>
 								</ul>
 							</form>
+							<p className="footerMessage">Denver Acorn 2019 - Brought to you by <a href="http://lusciden.com
+                ">Lusciden</a></p>
+				<div className="socialFooter">
+                    <a href="https://www.facebook.com/denveracorn/?ref=br_rs"><FaFacebookF className="socialCon" /></a><a href="https://twitter.com/acorn_Denver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><FaTwitterSquare className="social2Con" /></a>
+                </div>
             </div>
             </div>
         )
