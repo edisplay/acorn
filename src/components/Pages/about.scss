@@ -4,7 +4,7 @@
     grid-template-rows: 100px 50px 1fr 100px 1fr 50px 1fr;
     background-color: #525962; 
     padding-top: 10px;
-    height: 91.8vh;
+    height: 100vh;
 }
 
 .contBorder {
@@ -54,19 +54,47 @@
     font-size: 21px;
 }
 
-.footer {
-    margin-top: 10px;
-    grid-row-start: 9;
-    height: 190px;
-    padding-top: 30px;
-    width: 100vw;
-}
-
 #aboutButton {
     grid-column-start: 4;
     grid-column-end: 9;
     margin-left: -50px;
     margin-top: 10px;
+}
+
+.footerAbt {
+    background-color: #525962;
+    height: 90px;
+    margin-top: -120px;
+    grid-row-start: 9;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    margin-left: 110px;
+}
+
+.footerMessageAbt {
+    text-align: center;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    margin-top: 20px;
+}
+
+.socialFooterAbt {
+    margin-top:10px;
+    text-align: center;
+}
+
+.socialAbt {
+    margin-right: 20px;
+    font-size: 25px;
+    color: #3b5998;
+    width: 20px;
+}
+
+.social2Abt {
+    margin-left: 20px;
+    font-size: 25px;
+    color: #1da1f2;
+    width: 20px;
 }
 
 @media (min-width: 501px) and (max-width: 620px){
@@ -138,14 +166,6 @@
         width: 83vw;
         margin-top: 20px;
         height: 120px;
-    }
-    
-    .footer {
-        margin-top: 10px;
-        grid-row-start: 9;
-        height: 135px;
-        padding-top: 30px;
-        width: 100vw;
     }
     
     #aboutButton {
@@ -228,14 +248,6 @@
         height: 120px;
     }
     
-    .footer {
-        margin-top: 10px;
-        grid-row-start: 9;
-        height: 135px;
-        padding-top: 30px;
-        width: 100vw;
-    }
-    
     #aboutButton {
         grid-column-start: 4;
         grid-column-end: 9;
@@ -316,14 +328,6 @@
         height: 120px;
     }
     
-    .footer {
-        margin-top: 10px;
-        grid-row-start: 9;
-        height: 135px;
-        padding-top: 30px;
-        width: 100vw;
-    }
-    
     #aboutButton {
         grid-column-start: 4;
         grid-column-end: 9;
@@ -333,14 +337,94 @@
     }
 }    
 
-@media (min-width: 321px) and (max-width: 375px){
+// @media (min-width: 321px) and (max-width: 375px){
+//     .aboutContainer {
+//         display: grid;
+//         grid-template-columns: 1fr 50px repeat(5, 1fr) 1fr;
+//         grid-template-rows: 100px 50px 1fr 100px 1fr 50px 1fr;
+//         background-color: #525962; 
+//         padding-top: 10px;
+//         height: 1100px;
+//         width: 100vw;
+//     }
+    
+//     .contBorder {
+//         border: 3px solid #edeec9;
+//         grid-column-start: 2;
+//         grid-column-end: 8;
+//         grid-row-start: 2;
+//         grid-row-end: 7;
+//         background-color: #30332e; 
+//         height: 840px;
+//     }
+    
+//     .aboutImage1 {
+//         height: 30vh;
+//         width: 75vw;
+//         margin-left: -20px;
+//         margin-top: -25px;
+//         grid-column-start: 3;
+//         grid-row-start: 3;
+//     }
+    
+//     .aboutImage2 {
+//         margin-top: 40px;
+//         height: 30vh;
+//         width: 75vw;
+//         margin-left: -15px;
+//         grid-row-start: 5;
+//         grid-column-start: 3;
+//         margin-top: 60px;
+//     }
+    
+//     .aboutBryan {
+//         border: 3px solid #edeec9;
+//         grid-column-start: 3;
+//         grid-column-end: 4;
+//         grid-row-start: 4;
+//         margin-left: -120px;
+//         margin-right: -80px;
+//         color: #edeec9;
+//         padding: 10px;
+//         font-size: 13px;
+//         width: 75vw;
+//         margin-left: -20px;
+//         height: 120px;
+//         margin-top: 20px;
+//     }
+    
+//     .aboutChefIan {
+//         border: 3px solid #edeec9;
+//         grid-column-start: 3;
+//         grid-column-end: 4;
+//         grid-row-start: 6;
+//         margin-left: -15px;
+//         margin-right: -80px;
+//         color: #edeec9;
+//         padding: 10px;
+//         font-size: 13px;
+//         width: 72vw;
+//         margin-top: 20px;
+//         height: 120px;
+//     }
+    
+//     #aboutButton {
+//         grid-column-start: 4;
+//         grid-column-end: 9;
+//         margin-left: -50px;
+//         margin-top: 10px;
+//         display:none;
+//     }
+// }    
+
+@media (min-width: 451px) and (max-width: 520px){
     .aboutContainer {
         display: grid;
         grid-template-columns: 1fr 50px repeat(5, 1fr) 1fr;
         grid-template-rows: 100px 50px 1fr 100px 1fr 50px 1fr;
         background-color: #525962; 
         padding-top: 10px;
-        height: 1100px;
+        height: 1300px;
         width: 100vw;
     }
     
@@ -351,26 +435,25 @@
         grid-row-start: 2;
         grid-row-end: 7;
         background-color: #30332e; 
-        height: 840px;
+        height: 1040px;
     }
     
     .aboutImage1 {
         height: 30vh;
         width: 75vw;
-        margin-left: -20px;
+        margin-left: -0px;
         margin-top: -25px;
         grid-column-start: 3;
         grid-row-start: 3;
     }
     
     .aboutImage2 {
-        margin-top: 40px;
         height: 30vh;
         width: 75vw;
-        margin-left: -15px;
+        margin-left: -0px;
         grid-row-start: 5;
         grid-column-start: 3;
-        margin-top: 60px;
+        margin-top: 40px;
     }
     
     .aboutBryan {
@@ -378,15 +461,14 @@
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 4;
-        margin-left: -120px;
         margin-right: -80px;
         color: #edeec9;
         padding: 10px;
-        font-size: 13px;
+        font-size: 15px;
         width: 75vw;
-        margin-left: -20px;
-        height: 120px;
-        margin-top: 20px;
+        margin-left: -0px;
+        height: 204px;
+        margin-top:-85px;
     }
     
     .aboutChefIan {
@@ -394,111 +476,14 @@
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 6;
-        margin-left: -15px;
         margin-right: -80px;
         color: #edeec9;
         padding: 10px;
-        font-size: 13px;
-        width: 72vw;
-        margin-top: 20px;
-        height: 120px;
-    }
-    
-    .footer {
-        margin-top: 10px;
-        grid-row-start: 9;
-        height: 135px;
-        padding-top: 30px;
-        width: 100vw;
-    }
-    
-    #aboutButton {
-        grid-column-start: 4;
-        grid-column-end: 9;
-        margin-left: -50px;
-        margin-top: 10px;
-        display:none;
-    }
-}    
-
-@media (min-width: 300px) and (max-width: 320px){
-    .aboutContainer {
-        display: grid;
-        grid-template-columns: 1fr 50px repeat(5, 1fr) 1fr;
-        grid-template-rows: 100px 50px 1fr 100px 1fr 50px 1fr;
-        background-color: #525962; 
-        padding-top: 10px;
-        height: 1100px;
-        width: 100vw;
-    }
-    
-    .contBorder {
-        border: 3px solid #edeec9;
-        grid-column-start: 2;
-        grid-column-end: 8;
-        grid-row-start: 2;
-        grid-row-end: 7;
-        background-color: #30332e; 
-        height: 840px;
-    }
-    
-    .aboutImage1 {
-        height: 30vh;
+        font-size: 15px;
         width: 75vw;
-        margin-left: -20px;
-        margin-top: -25px;
-        grid-column-start: 3;
-        grid-row-start: 3;
-    }
-    
-    .aboutImage2 {
-        margin-top: 40px;
-        height: 30vh;
-        width: 75vw;
-        margin-left: -15px;
-        grid-row-start: 5;
-        grid-column-start: 3;
-        margin-top: 60px;
-    }
-    
-    .aboutBryan {
-        border: 3px solid #edeec9;
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 4;
-        margin-left: -120px;
-        margin-right: -80px;
-        color: #edeec9;
-        padding: 10px;
-        font-size: 13px;
-        width: 230px;
-        margin-left: -20px;
-        height: 120px;
-        margin-top: 20px;
-    }
-    
-    .aboutChefIan {
-        border: 3px solid #edeec9;
-        grid-column-start: 3;
-        grid-column-end: 4;
-        grid-row-start: 6;
-        margin-left: -120px;
-        margin-right: -80px;
-        color: #edeec9;
-        padding: 10px;
-        font-size: 13px;
-        width: 230px;
-        margin-top: 20px;
-        margin-left: -20px;
-        height: 120px;
-    }
-    
-    .footer {
-        margin-top: 10px;
-        grid-row-start: 9;
-        height: 135px;
-        padding-top: 30px;
-        width: 100vw;
+        margin-top: -20px;
+        margin-left: -0px;
+        height: 224px;
     }
     
     #aboutButton {
@@ -507,6 +492,378 @@
         margin-left: -50px;
         margin-top: 10px;
         display: none;
+    }
+
+    .footerAbt {
+        background-color: #525962;
+        height: 90px;
+        margin-left: -30px;
+        width: 80vw;
+    }
+    
+    .footerMessageAbt {
+        text-align: center;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-top: 20px;
+    }
+    
+    .socialFooterAbt {
+        margin-top:10px;
+        text-align: center;
+    }
+    
+    .socialAbt {
+        margin-right: 20px;
+        font-size: 25px;
+        color: #3b5998;
+        width: 20px;
+    }
+    
+    .social2Abt {
+        margin-left: 20px;
+        font-size: 25px;
+        color: #1da1f2;
+        width: 20px;
+    }
+} 
+
+@media (min-width: 376px) and (max-width: 450px){
+    .aboutContainer {
+        display: grid;
+        grid-template-columns: 1fr 50px repeat(5, 1fr) 1fr;
+        grid-template-rows: 100px 50px 1fr 100px 1fr 50px 1fr;
+        background-color: #525962; 
+        padding-top: 10px;
+        height: 1300px;
+        width: 100vw;
+    }
+    
+    .contBorder {
+        border: 3px solid #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 2;
+        grid-row-end: 7;
+        background-color: #30332e; 
+        height: 1040px;
+    }
+    
+    .aboutImage1 {
+        height: 30vh;
+        width: 75vw;
+        margin-left: -20px;
+        margin-top: -25px;
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+    
+    .aboutImage2 {
+        height: 30vh;
+        width: 75vw;
+        margin-left: -15px;
+        grid-row-start: 5;
+        grid-column-start: 3;
+        margin-top: 40px;
+    }
+    
+    .aboutBryan {
+        border: 3px solid #edeec9;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        margin-left: -120px;
+        margin-right: -80px;
+        color: #edeec9;
+        padding: 10px;
+        font-size: 15px;
+        width: 75vw;
+        margin-left: -20px;
+        height: 204px;
+        margin-top:-85px;
+    }
+    
+    .aboutChefIan {
+        border: 3px solid #edeec9;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        margin-left: -120px;
+        margin-right: -80px;
+        color: #edeec9;
+        padding: 10px;
+        font-size: 15px;
+        width: 75vw;
+        margin-top: -20px;
+        margin-left: -14px;
+        height: 224px;
+    }
+    
+    #aboutButton {
+        grid-column-start: 4;
+        grid-column-end: 9;
+        margin-left: -50px;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .footerAbt {
+        background-color: #525962;
+        height: 90px;
+        margin-left: -30px;
+        width: 80vw;
+    }
+    
+    .footerMessageAbt {
+        text-align: center;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-top: 20px;
+    }
+    
+    .socialFooterAbt {
+        margin-top:10px;
+        text-align: center;
+    }
+    
+    .socialAbt {
+        margin-right: 20px;
+        font-size: 25px;
+        color: #3b5998;
+        width: 20px;
+    }
+    
+    .social2Abt {
+        margin-left: 20px;
+        font-size: 25px;
+        color: #1da1f2;
+        width: 20px;
+    }
+} 
+
+@media (min-width: 321px) and (max-width: 375px){
+    .aboutContainer {
+        display: grid;
+        grid-template-columns: 1fr 50px repeat(5, 1fr) 1fr;
+        grid-template-rows: 100px 50px 1fr 100px 1fr 50px 1fr;
+        background-color: #525962; 
+        padding-top: 10px;
+        height: 1300px;
+        width: 100vw;
+    }
+    
+    .contBorder {
+        border: 3px solid #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 2;
+        grid-row-end: 7;
+        background-color: #30332e; 
+        height: 1040px;
+    }
+    
+    .aboutImage1 {
+        height: 30vh;
+        width: 75vw;
+        margin-left: -20px;
+        margin-top: -25px;
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+    
+    .aboutImage2 {
+        height: 30vh;
+        width: 75vw;
+        margin-left: -15px;
+        grid-row-start: 5;
+        grid-column-start: 3;
+        margin-top: 40px;
+    }
+    
+    .aboutBryan {
+        border: 3px solid #edeec9;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        margin-left: -120px;
+        margin-right: -80px;
+        color: #edeec9;
+        padding: 10px;
+        font-size: 13px;
+        width: 75vw;
+        margin-left: -20px;
+        height: 204px;
+        margin-top:-85px;
+    }
+    
+    .aboutChefIan {
+        border: 3px solid #edeec9;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        margin-left: -120px;
+        margin-right: -80px;
+        color: #edeec9;
+        padding: 10px;
+        font-size: 13px;
+        width: 75vw;
+        margin-top: -20px;
+        margin-left: -14px;
+        height: 224px;
+    }
+    
+    #aboutButton {
+        grid-column-start: 4;
+        grid-column-end: 9;
+        margin-left: -50px;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .footerAbt {
+        background-color: #525962;
+        height: 90px;
+        margin-left: -30px;
+        width: 80vw;
+    }
+    
+    .footerMessageAbt {
+        text-align: center;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-top: 20px;
+    }
+    
+    .socialFooterAbt {
+        margin-top:10px;
+        text-align: center;
+    }
+    
+    .socialAbt {
+        margin-right: 20px;
+        font-size: 25px;
+        color: #3b5998;
+        width: 20px;
+    }
+    
+    .social2Abt {
+        margin-left: 20px;
+        font-size: 25px;
+        color: #1da1f2;
+        width: 20px;
+    }
+} 
+
+@media (min-width: 300px) and (max-width: 320px){
+    .aboutContainer {
+        display: grid;
+        grid-template-columns: 1fr 50px repeat(5, 1fr) 1fr;
+        grid-template-rows: 100px 50px 1fr 100px 1fr 50px 1fr;
+        background-color: #525962; 
+        padding-top: 10px;
+        height: 1400px;
+        width: 100vw;
+    }
+    
+    .contBorder {
+        border: 3px solid #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 2;
+        grid-row-end: 7;
+        background-color: #30332e; 
+        height: 1060px;
+    }
+    
+    .aboutImage1 {
+        height: 30vh;
+        width: 75vw;
+        margin-left: -20px;
+        margin-top: -25px;
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+    
+    .aboutImage2 {
+        height: 30vh;
+        width: 75vw;
+        margin-left: -15px;
+        grid-row-start: 5;
+        grid-column-start: 3;
+        margin-top: 25px;
+    }
+    
+    .aboutBryan {
+        border: 3px solid #edeec9;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        margin-left: -120px;
+        margin-right: -80px;
+        color: #edeec9;
+        padding: 10px;
+        font-size: 13px;
+        width: 230px;
+        margin-left: -20px;
+        height: 204px;
+        margin-top:-110px;
+    }
+    
+    .aboutChefIan {
+        border: 3px solid #edeec9;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        margin-left: -120px;
+        margin-right: -80px;
+        color: #edeec9;
+        padding: 10px;
+        font-size: 13px;
+        width: 230px;
+        margin-top: -60px;
+        margin-left: -20px;
+        height: 224px;
+    }
+    
+    #aboutButton {
+        grid-column-start: 4;
+        grid-column-end: 9;
+        margin-left: -50px;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .footerAbt {
+        background-color: #525962;
+        height: 90px;
+        margin-left: -30px;
+        width: 80vw;
+    }
+    
+    .footerMessageAbt {
+        text-align: center;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-top: 20px;
+    }
+    
+    .socialFooterAbt {
+        margin-top:10px;
+        text-align: center;
+    }
+    
+    .socialAbt {
+        margin-right: 20px;
+        font-size: 25px;
+        color: #3b5998;
+        width: 20px;
+    }
+    
+    .social2Abt {
+        margin-left: 20px;
+        font-size: 25px;
+        color: #1da1f2;
+        width: 20px;
     }
 } 
 
