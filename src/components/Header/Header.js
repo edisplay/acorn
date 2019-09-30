@@ -19,10 +19,10 @@ export class Header extends Component {
                         <div>
                             <div>
                                 <ul>
-                                    <li><a href="#">Menu</a></li>
-                                    <li><a href="#">Reservations</a></li>
-                                    <li><a href="#">Private Dining</a></li>
-                                    <li><a href="#">About</a></li>
+                                    <li><a className="btn" href="#menuAnchor">Menu</a></li>
+                                    <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
+                                    <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
+                                    <li><Link to="/about" className="btn" href="/">About</Link></li>
                                 </ul>
                             </div>
                         </div>
