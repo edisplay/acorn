@@ -15,10 +15,10 @@ export class About extends Component {
                     <img className="aboutImage1" src={Bryan}/>
                     <img className="aboutImage2" src={Chefian}/>
                     <div className="aboutBryan">
-                        <p>The owner of Acorn and the Half Eaten Cookie restaurant group, Bryan Dayton is a restauranteur who takes pride in well-sourced, excellently-prepared foods.</p>
+                        <p>The owner of Acorn and the Half Eaten Cookie restaurant group, Bryan Dayton is a restauranteur who takes pride in well-sourced, excellently-prepared foods. He shares his passion for the hospitality industry with employees and patrons alike. This dedication to the craft shines through in both the food and cocktail menu.</p>
                     </div>
                     <div className="aboutChefIan">
-                        <p>Preparing incredible food since age 14, Chef Ian Palazzola now brings his sense of artistry into the kitchen here at Denver Acorn. </p>
+                        <p>Preparing incredible food since age 14, Chef Ian Palazzola now brings his sense of artistry into the kitchen here at Denver Acorn. His extreme dedication to creating signature dishes does not take the fun out of food however, and there is a genuine sense of playfulness found in many dishes. Foods where one's flavor palate and color palate intermingle.</p>
                     </div>
                     <Footer className="Footer" />
             </div>

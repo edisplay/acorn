@@ -69,6 +69,94 @@
     margin-top: 10px;
 }
 
+@media (min-width: 501px) and (max-width: 620px){
+    .aboutContainer {
+        display: grid;
+        grid-template-columns: 1fr 50px repeat(5, 1fr) 1fr;
+        grid-template-rows: 100px 50px 1fr 100px 1fr 50px 1fr;
+        background-color: #525962; 
+        padding-top: 10px;
+        height: 1100px;
+        width: 100vw;
+    }
+    
+    .contBorder {
+        border: 3px solid #edeec9;
+        grid-column-start: 2;
+        grid-column-end: 8;
+        grid-row-start: 2;
+        grid-row-end: 7;
+        background-color: #30332e; 
+        height: 840px;
+    }
+    
+    .aboutImage1 {
+        height: 30vh;
+        width: 83vw;
+        margin-left: -20px;
+        margin-top: -25px;
+        grid-column-start: 3;
+        grid-row-start: 3;
+    }
+    
+    .aboutImage2 {
+        margin-top: 40px;
+        height: 30vh;
+        width: 83vw;
+        margin-left: -18px;
+        grid-row-start: 5;
+        grid-column-start: 3;
+        margin-top: 60px;
+    }
+    
+    .aboutBryan {
+        border: 3px solid #edeec9;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        margin-left: -120px;
+        margin-right: -80px;
+        color: #edeec9;
+        padding: 10px;
+        font-size: 15px;
+        width: 83vw;
+        margin-left: -20px;
+        height: 120px;
+        margin-top: 20px;
+    }
+    
+    .aboutChefIan {
+        border: 3px solid #edeec9;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 6;
+        margin-left: -17px;
+        margin-right: -80px;
+        color: #edeec9;
+        padding: 10px;
+        font-size: 15px;
+        width: 83vw;
+        margin-top: 20px;
+        height: 120px;
+    }
+    
+    .footer {
+        margin-top: 10px;
+        grid-row-start: 9;
+        height: 135px;
+        padding-top: 30px;
+        width: 100vw;
+    }
+    
+    #aboutButton {
+        grid-column-start: 4;
+        grid-column-end: 9;
+        margin-left: -50px;
+        margin-top: 10px;
+        display:none;
+    }
+}    
+
 @media (min-width: 431px) and (max-width: 500px){
     .aboutContainer {
         display: grid;
