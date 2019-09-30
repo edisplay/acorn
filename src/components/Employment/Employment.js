@@ -7,7 +7,7 @@ export class Employment extends Component {
     render() {
         return (
             <div className="contact">
-				<Footer className="footer" />
+				<Footer className="footerCon" />
                             <div className="contactContainer">
 							<div className="button" id="employmentButton"><Link to="/">Return Home</Link></div>
 							<h1 className="contactHeading">Please Paste Your Cover Letter and Attach Your Resume</h1>

@@ -323,6 +323,7 @@
         background-color:#525962;
         height: 570px;
         padding: 30px;
+        margin-bottom: 90px;
     }
 
     .locale {
@@ -339,8 +340,10 @@
         background-color:#525962;
         display: grid;
         grid-template-columns: repeat(28, 1fr);
-        height: 530px;
+        height: 560px;
         padding: 30px;
+        padding-bottom: 50px;
+        margin-bottom: 100px;
     }
     
     .mobileMap {
@@ -405,5 +408,6 @@
         grid-template-columns: repeat(28, 1fr);
         height: 650px;
         padding: 30px;
+        margin-bottom: 60px;
     }
 }   
