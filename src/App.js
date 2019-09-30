@@ -23,7 +23,6 @@ function App() {
         <Route path="/join-our-team" component={Employment}/>  
         <Route path="/about" component={About}/>
         <Route path="/private-dining" component={Privatedining}/>
-        
         <div className="container">
             <Route path="/" component={Header}/>
             <Route path="/" component={Process}/>

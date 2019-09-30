@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './_header.scss';
+import './_mobile.scss';
+import './_mobilestyle.scss';
 import Icon from './icon.png';
 import Mobileicon from './acorn.jpg'
 import { Link } from 'react-router-dom';
@@ -8,27 +10,28 @@ export class Header extends Component {
     render() {
         return (
             <div className="header">
-                {/* <div className="mobileWrapper" style={{marginTop: "64px"}}>
-                    <div className="mobileNavDiv">
-                        <nav className="mobileNavbarNavigation">
-                            <div></div>
-                            <div className="mobileLogo"><a>LOGO</a></div>
-                            <div className="mobileNavItems">
-                                <ul>
-                                    <li>
-                                        <a>About</a>
-                                    </li>
-                                    <li>
-                                        <a>Private Dining</a>
-                                    </li>
-                                    <li>
-                                        <a>Employment</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>                
-                </div> */}
+
+
+                <div class="mobileMenuWrap">
+                    <input type="checkbox" className="toggler" />
+                    <div className="hamburger"><div><div></div></div></div>
+                    <div className="mobileMenu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="#">Menu</a></li>
+                                <li><a href="#">Reservations</a></li>
+                                <li><a href="#">Private Dining</a></li>
+                                <li><a href="#">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ 
+
+
+
 
                <div className="desktopNav">
                     <ul >

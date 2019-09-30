@@ -3,7 +3,7 @@ import '../../sass/_process.scss';
 import Dish from './dish.jpg';
 import Chef from './chef.png';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+// import 'aos/dist/aos.css'; data-aos="fade-up" data-aos="fade-down"
 import Bowl from './dish.jpg';
 import Chef2 from './chef.png';
 import { Link } from 'react-router-dom';
@@ -28,8 +28,8 @@ export class Process extends Component {
                     <div className="button"><Link to="/about">Learn More</Link></div>
                     </div>
                 </div> 
-                    <img className="dish" data-aos="fade-up" src={Bowl}/>
-                    <img className="chef" data-aos="fade-down" src={Chef2}/>                    
+                    <img className="dish" src={Bowl}/>
+                    <img className="chef" src={Chef2}/>                    
             </div>
         )
     }
