@@ -5,6 +5,7 @@
     z-index: 100;
 }
 
+
 .mobileMenuWrap .toggler {
     position: absolute;
     top: 0;
@@ -138,4 +139,10 @@
     color: #fff;
     text-decoration: none;
     transition: color 0.4s ease; 
+}
+
+.mobileContainer {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
 }

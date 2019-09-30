@@ -11,23 +11,24 @@ export class Header extends Component {
         return (
             <div className="header">
 
-
+            <div className="mobileContainer">
                 <div class="mobileMenuWrap">
-                    <input type="checkbox" className="toggler" />
-                    <div className="hamburger"><div><div></div></div></div>
-                    <div className="mobileMenu">
-                    <div>
+                        <input type="checkbox" className="toggler" />
+                        <div className="hamburger"><div><div></div></div></div>
+                        <div className="mobileMenu">
                         <div>
-                            <ul>
-                                <li><a href="#">Menu</a></li>
-                                <li><a href="#">Reservations</a></li>
-                                <li><a href="#">Private Dining</a></li>
-                                <li><a href="#">About</a></li>
-                            </ul>
+                            <div>
+                                <ul>
+                                    <li><a href="#">Menu</a></li>
+                                    <li><a href="#">Reservations</a></li>
+                                    <li><a href="#">Private Dining</a></li>
+                                    <li><a href="#">About</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>    
  
 
 
