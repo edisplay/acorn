@@ -688,7 +688,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr repeat(6, 1fr) 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        height: 580px;
+        height: 780px;
     }
     
     
@@ -750,20 +750,22 @@
     }
     
     .dish {
-        height: 400px;
-        width: 500px;
+        height: 200px;
+        width: 300px;
         margin-top: 30px;
         grid-column-start:9;
         grid-row-start: 2;
+        margin-left: -300px;
     }
     
     .chef {
-        height: 350px;
-        width: 550px;
+        height: 150px;
+        width: 350px;
         margin-top: 45px;
         grid-column-start: 8;
         grid-row-start: 2;
-        margin-right: -100px;
+        margin-left: -350px;
+        margin-top: 150px;
     } 
 }  
 
