@@ -1,0 +1,67 @@
+.privateDining {
+    width:100%;
+    background-image: url("privDin.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50px repeat(7, 1fr) 50px;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.privDinHeading {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 9;
+    font-size: 32px;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.privDinContent {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 9;
+    color: white;
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    margin-top: -40px;
+    font-size: 15px;
+}
+
+#privDinButton {
+    background-color: #30332e;
+    color: white;
+    border: 1px solid white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    grid-column-start: 5;
+    margin-top: 50px;
+    width:17vw;
+    height:60px;
+    font-family: 'Lexend Zetta', sans-serif;
+    padding-bottom: 5px;
+}
+
+.socialFooterPriv {
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    text-align: center;
+    height: 100px;
+    background-color: #525962;
+}
+
+.socialPriv {
+    margin-top: 20px;
+}
+
+.social2Priv {
+    
+}

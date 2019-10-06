@@ -2,18 +2,18 @@ import React, { Component } from 'react';
 import '../../sass/_reservations.scss';
 
 export class Reservations extends Component {
-    constructor(props) {
-        super(props);
-    }
+    // constructor(props) {
+    //     super(props);
+    // }
 
-    componentDidMount() {
-        const script = document.createElement("script");
+    // componentDidMount() {
+    //     const script = document.createElement("script");
 
-        script.src = "//www.opentable.com/widget/reservation/loader?rid=412810&type=standard&theme=wide&iframe=true&overlay=false&domain=com&lang=en-US";
-        script.async = true;
+    //     script.src = '//www.opentable.com/widget/reservation/loader?rid=347401&type=standard&theme=tall&iframe=true&domain=com&lang=en-US';
+    //     script.async = true;
 
-        document.body.appendChild(script);
-    }
+    //     document.body.appendChild(script);
+    // }
 
     render() {
         return (
@@ -22,7 +22,7 @@ export class Reservations extends Component {
                     <h2 id="reservationsAnchor">Reservations</h2>
                     <div className="divider"></div>
                     <div className="openTable">
-                        <script className="openTable" type='text/javascript' id="gather-loader" src='//www.opentable.com/widget/reservation/loader?rid=412810&type=standard&theme=wide&iframe=true&overlay=false&domain=com&lang=en-US'></script>
+                    {/* <script type='text/javascript' className="openTable" src='//www.opentable.com/widget/reservation/loader?rid=347401&type=standard&theme=tall&iframe=true&domain=com&lang=en-US'></script> */}
                     </div>
                 </div>
                 <h1 className="menuHeading" id="menuAnchor">Menu</h1>
