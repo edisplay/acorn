@@ -156,7 +156,7 @@
         grid-column-start: 3;
         grid-column-end: 20;
         margin-top: -110px;
-        z-index: 1;
+        // z-index: 1;
         -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
         -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
         box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
@@ -216,7 +216,7 @@
         margin-left:10px;
         margin-right:10px;
         margin-top:10px;
-        z-index:2;
+        // z-index:2;
     }
     
     #innest1 {
@@ -226,7 +226,7 @@
         margin-left: 20px;
         margin-right: 20px;
         margin-top: -620px;
-        z-index:5;
+        // z-index:5;
     }
     
     #innest2 {
@@ -284,7 +284,6 @@
         grid-column-start: 3;
         grid-column-end: 20;
         margin-top: -110px;
-        z-index: 1;
         -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
         -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
         box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
@@ -412,7 +411,6 @@
         grid-column-start: 3;
         grid-column-end: 20;
         margin-top: -110px; 
-        z-index: 1;
         -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
         -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
         box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
@@ -532,7 +530,6 @@
         grid-template-rows: repeat(4, 1fr);
         margin-bottom: 240px;
         height: 800px;
-        z-index: 1;
     }
     
     #menu1 {
@@ -541,7 +538,6 @@
         grid-column-start: 3;
         grid-column-end: 20;
         margin-top: -110px;
-        z-index: 1;
         -webkit-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
         -moz-box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
         box-shadow: 10px 9px 5px 0px rgba(48,51,46,0.43);
