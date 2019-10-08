@@ -3,29 +3,30 @@ import Chefian from './chefIan.png';
 import Bryan from './bryan.png';
 import { FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
 import './about.scss'
+import './_mobilestyleabt.scss';
 import { Link } from 'react-router-dom';
 
 export class About extends Component {
     render() {
         return (
         <div className="aboutContainer">
-        <div className="mobileContainerAbt">
-                <div class="mobileMenuWrap">
-                        <input type="checkbox" className="toggler" />
-                        <div className="hamburger"><div><div></div></div></div>
-                        <div className="mobileMenu">
-                        <div>
+                <div className="mobileContainer">
+                    <div class="mobileMenuWrap">
+                            <input type="checkbox" className="toggler" />
+                            <div className="hamburger"><div><div></div></div></div>
+                            <div className="mobileMenu">
                             <div>
-                                <ul>
-                                    <li><a className="btn" href="#menuAnchor">Menu</a></li>
-                                    <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
-                                    <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
-                                    <li><Link to="/about" className="btn" href="/">About</Link></li>
-                                </ul>
+                                <div>
+                                    <ul>
+                                        <li><a className="btn" href="#menuAnchor">Menu</a></li>
+                                        <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
+                                        <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
+                                        <li><Link to="/about" className="btn" href="/">About</Link></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 </div> 
             {/* <div class="button" id="aboutButton"><Link to="/">Return Home</Link></div> */}
             <div className="contBorder">

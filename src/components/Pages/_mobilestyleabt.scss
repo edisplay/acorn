@@ -1,0 +1,155 @@
+.mobileContainer{
+    margin-top: -10px;
+}
+
+.menu-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+
+.mobileMenuWrap .toggler {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+}
+
+.mobileMenuWrap .hamburger {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    padding: 1rem;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all;
+}
+
+// Hamburger line
+
+.mobileMenuWrap .hamburger > div{
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background-color: #30332e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s ease;
+}
+
+.mobileMenuWrap .hamburger > div:before,
+.mobileMenuWrap .hamburger > div:after {
+    content: '';
+    position: absolute;
+    z-index: 100;
+    top: -10px;
+    width: 100%;
+    height: 2px;
+    background: inherit;
+}
+
+.mobileMenuWrap .hamburger > div:after {
+    top: 10px;
+}
+
+// Animate Toggler
+
+.mobileMenuWrap .toggler:checked + .hamburger > div {
+    transform: rotate(135deg);
+}
+
+/* Turn lines into X */
+.mobileMenuWrap .toggler:checked + .hamburger > div:before,
+.mobileMenuWrap .toggler:checked + .hamburger > div:after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+/* Rotate on hover when checked */@at-root
+.mobileMenuWrap .toggler:checked:hover + .hamburger > div {
+    transform: rotate(225deg);
+}
+
+// Show Menu 
+.mobileMenuWrap .toggler:checked ~ .mobileMenu {
+    visibility: visible;
+}
+
+.mobileMenuWrap .toggler:checked ~ .mobileMenu > div {
+    transform: scale(1);
+    transition-duration: var(--menu-speed);
+}
+
+.mobileMenuWrap .toggler:checked ~ .mobileMenu > div > div {
+    opacity: 1;
+    transition: opacity 0.4s ease;
+}    
+
+
+.mobileMenuWrap .mobileMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobileMenuWrap .mobileMenu > div {
+    background: #30332e;
+    border-radius: 50%;
+    width: 200vw;
+    height: 200vh;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    transition: all 0.4s ease;
+}
+
+.mobileMenuWrap .mobileMenu > div > div {
+    text-align: center;
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}    
+
+.mobileMenuWrap .mobileMenu > div > div > ul > li {
+    list-style: none;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.mobileMenuWrap .mobileMenu > div > div > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.4s ease; 
+}
+
+.mobileContainer {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+}
+
+  
