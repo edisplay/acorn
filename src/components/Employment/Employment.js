@@ -8,6 +8,17 @@ export class Employment extends Component {
     render() {
         return (
             <div className="contact">
+
+				<div className="desktopNavPriv">
+                    <ul >
+                        <li><a className="btn" href="/">Home</a></li>
+                        <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
+                        {/* <img className="acorn" src={Icon}/> */}
+                        <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
+                        <li><Link to="/about" className="btn" href="/">About</Link></li>
+                    </ul>
+                </div> 
+
 				<div className="mobileContainer">
                     <div class="mobileMenuWrap">
                             <input type="checkbox" className="toggler" />
@@ -27,7 +38,6 @@ export class Employment extends Component {
                     </div>
                 </div> 
                             <div className="contactContainer">
-							<div className="button" id="employmentButton"><Link to="/">Return Home</Link></div>
 							<h1 className="contactHeading">Please Paste Your Cover Letter and Attach Your Resume</h1>
                 			<form action="//formspree.io/james@lusciden.com" method="POST">
 								<div class="fields">

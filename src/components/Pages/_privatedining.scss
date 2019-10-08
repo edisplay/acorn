@@ -9,6 +9,12 @@
     grid-template-rows: repeat(5, 1fr);
 }
 
+.desktopNavPriv{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 10;
+}
+
 .privDinHeading {
     grid-row-start: 2;
     grid-column-start: 2;
@@ -76,3 +82,186 @@
     font-size: 15px;
     padding-bottom: 10px;
 }
+
+@media (min-width: 200px) and (max-width: 1356px) {
+    .desktopNavPriv {
+        display: none;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1100px) {
+    .privateDining {
+        width:100%;
+        background-image: url("privDin.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 50px repeat(7, 1fr) 50px;
+        grid-template-rows: repeat(5, 1fr);
+    }
+    
+    .desktopNavPriv{
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: 10;
+    }
+    
+    .privDinHeading {
+        grid-row-start: 2;
+        width: 80vw;
+        font-size: 22px;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        text-align: center;
+        margin-top: 75px;
+        margin-bottom: 70px;
+    }
+    
+    .privDinContent {
+        grid-row-start: 3;
+        width: 90vw;
+        margin-left: -20px;
+        color: white;
+        text-align: center;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-top: -40px;
+        font-size: 16px;
+    }
+    
+    #privDinButton {
+        background-color: #30332e;
+        color: white;
+        border: 1px solid white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        grid-column-start: 5;
+        grid-row-start: 4;
+        margin-top: 50px;
+        width:40vw;
+        height:60px;
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 5px;
+    }
+    
+    .socialFooterPriv {
+        grid-row-start: 6;
+        grid-column-start: 1;
+        grid-column-end: 10;
+        text-align: center;
+        height: 120px;
+        width: 100vw;
+        padding-top: 10px;
+        background-color: #525962;
+        margin-bottom: -40px;
+    }
+    
+    .socialPriv {
+        margin-top: 20px;
+    }
+    
+    .social2Priv {
+        margin-top: 20px;
+    }
+    
+    .footerMessagePriv {
+        text-align: center;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-top: 20px;
+        font-size: 11px;
+    }
+}    
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .privateDining {
+        width:100%;
+        background-image: url("privDin.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 50px repeat(7, 1fr) 50px;
+        grid-template-rows: repeat(5, 1fr);
+    }
+    
+    .desktopNavPriv{
+        grid-row-start: 1;
+        grid-column-start: 2;
+        grid-column-end: 10;
+    }
+    
+    .privDinHeading {
+        grid-row-start: 2;
+        width: 80vw;
+        font-size: 17px;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-left: -20px;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 70px;
+    }
+    
+    .privDinContent {
+        grid-row-start: 3;
+        width: 90vw;
+        margin-left: -40px;
+        color: white;
+        text-align: center;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-top: -40px;
+        font-size: 12px;
+    }
+    
+    #privDinButton {
+        background-color: #30332e;
+        color: white;
+        border: 1px solid white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        grid-column-start: 5;
+        grid-row-start: 4;
+        margin-top: 50px;
+        width:70vw;
+        height:60px;
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 5px;
+    }
+    
+    .socialFooterPriv {
+        grid-row-start: 6;
+        grid-column-start: 1;
+        grid-column-end: 10;
+        text-align: center;
+        height: 120px;
+        width: 100vw;
+        padding-top: 10px;
+        background-color: #525962;
+        margin-bottom: -40px;
+    }
+    
+    .socialPriv {
+        margin-top: 20px;
+    }
+    
+    .social2Priv {
+        margin-top: 20px;
+    }
+    
+    .footerMessagePriv {
+        text-align: center;
+        color: white;
+        font-family: 'Lexend Peta', sans-serif;
+        margin-top: 20px;
+        font-size: 11px;
+    }
+}    

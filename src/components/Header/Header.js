@@ -35,7 +35,7 @@ export class Header extends Component {
                     <ul >
                         <li><a className="btn" href="#menuAnchor">Menu</a></li>
                         <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
-                        <img className="acorn" src={Icon}/>
+                        {/* <img className="acorn" src={Icon}/> */}
                         <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
                         <li><Link to="/about" className="btn" href="/">About</Link></li>
                     </ul>

@@ -7,12 +7,19 @@
     height: 100vh;
 }
 
+.desktopNavAbt {
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 9;
+}
+
 .contBorder {
     border: 3px solid #edeec9;
     grid-column-start: 2;
     grid-column-end: 8;
     grid-row-start: 2;
     grid-row-end: 7;
+    margin-top: 30px;
     background-color: #30332e; 
 }
 

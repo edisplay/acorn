@@ -10,6 +10,16 @@ export class About extends Component {
     render() {
         return (
         <div className="aboutContainer">
+        <div className="desktopNavAbt">
+                    <ul >
+                        <li><a className="btn" href="#menuAnchor">Menu</a></li>
+                        <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
+                        {/* <img className="acorn" src={Icon}/> */}
+                        <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
+                        <li><Link to="/about" className="btn" href="/">About</Link></li>
+                    </ul>
+                </div> 
+    
                 <div className="mobileContainer">
                     <div class="mobileMenuWrap">
                             <input type="checkbox" className="toggler" />
