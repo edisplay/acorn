@@ -55,6 +55,7 @@
     grid-column-end: 10;
     text-align: center;
     height: 100px;
+    padding-top: 10px;
     background-color: #525962;
 }
 
@@ -64,4 +65,13 @@
 
 .social2Priv {
     margin-top: 20px;
+}
+
+.footerMessagePriv {
+    text-align: center;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    margin-top: 20px;
+    font-size: 15px;
+    padding-bottom: 10px;
 }

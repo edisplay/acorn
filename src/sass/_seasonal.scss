@@ -20,11 +20,11 @@
     grid-column-end: 5;
 }  
 
-@media (min-width: 835px) and (max-width: 2020px){
+@media (min-width: 835px) and (max-width: 1120px){
     .seasonal {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        height: 1100px;
+        height: 1700px;
     }
 
     .seasonalHeading {
@@ -43,7 +43,7 @@
     }
 }    
 
-@media (min-width: 551px) and (max-width: 834px){
+@media (min-width: 775px) and (max-width: 834px){
     .seasonal {
         margin-top: 900px;
         display: grid;
@@ -56,12 +56,13 @@
     }
 }    
 
-@media (min-width: 471px) and (max-width: 550px){
+@media (min-width: 471px) and (max-width: 774px){
     .seasonal {
         margin-top: 600px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        height: 2040px;
+        height: 1440px;
+        margin-bottom: 250px;
     }
 
     .seasonalHeading {
