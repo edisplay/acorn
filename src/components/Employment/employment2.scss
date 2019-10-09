@@ -88,6 +88,8 @@
 .socialFooter {
     margin-top:10px;
     text-align: center;
+    background-color: #525962;
+    width: 99vw;
 }
 
 .socialCon {
@@ -103,6 +105,85 @@
     color: #1da1f2;
     width: 20px;
 }
+
+@media (min-width: 1161px) and (max-width: 1500px){
+    .contact {
+        height: 100vh;
+        background-color: #525962;
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(9, 1fr);
+    }
+    
+    .contactContainer {
+        height: 40vw;
+        text-align: center;
+    }
+    
+    .contactForm {
+        text-align: center;
+    }
+    
+    .fieldCon {
+        width: 35vw;
+    }
+    
+    #messageForm {
+        height: 50vh;
+        width: 35vw;
+    }
+    
+    #idCon {
+        height: 20px;
+    }
+    
+    .buttonEmp {
+        background-color: #30332e;
+        color: white;
+        border: 1px solid white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        cursor: pointer;
+        grid-column-start: 3;
+        margin-top: 50px;
+        width:70vw;
+        height:60px;
+        font-family: 'Lexend Zetta', sans-serif;
+        padding-bottom: 15px;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        margin-top: 20px;
+        width: 30vw;
+    }
+    
+    .contactHeading {
+        color: #EDEEC9;
+        font-family: 'Lexend Zetta', sans-serif;
+        text-align: center;
+        margin-left: 215px;
+        grid-row-start: 3;
+        margin-top: -110px;
+        font-size: 17px;
+        width: 65vw;
+        border-bottom: 1px white solid;
+        height:40px;
+        margin-bottom: 10px;
+        margin-top: px;
+    }
+    
+    .footerCon {
+        width: 100vw;
+        margin-bottom: -30px;
+    }
+    
+    #employmentButton {
+        margin-bottom: -100px;
+        display: none;
+    }
+} 
 
 @media (min-width: 601px) and (max-width: 1160px){
     .contact {
@@ -164,10 +245,11 @@
         grid-row-start: 3;
         margin-top: -110px;
         font-size: 12px;
-        width: 95vw;
+        width: 75vw;
         border-bottom: 1px white solid;
         height:40px;
         margin-bottom: 10px;
+        margin-left: 100px;
     }
     
     .footerCon {
@@ -314,7 +396,7 @@
         text-align: center;
         grid-column-start: 5;
         grid-row-start: 3;
-        margin-top: -250px;
+        margin-top: -150px;
         font-size: 12px;
         width: 95vw;
         border-bottom: 1px white solid;
@@ -390,7 +472,7 @@
         text-align: center;
         grid-column-start: 5;
         grid-row-start: 3;
-        margin-top: -220px;
+        margin-top: -160px;
         font-size: 12px;
         width: 95vw;
         border-bottom: 1px white solid;
@@ -512,4 +594,4 @@
         color: #1da1f2;
         width: 20px;
     }
-}    
+}  

@@ -20,7 +20,7 @@ export class Header extends Component {
                             <div>
                                 <ul>
                                     <li><a className="btn" href="/">Home</a></li>
-                                    <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
+                                    <li><a className="btn" href="/">Reservations</a></li>
                                     <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
                                     <li><Link to="/about" className="btn" href="/">About</Link></li>
                                 </ul>
@@ -33,9 +33,8 @@ export class Header extends Component {
 
                <div className="desktopNav">
                     <ul >
-                        <li><a className="btn" href="#menuAnchor">Menu</a></li>
-                        <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
-                        {/* <img className="acorn" src={Icon}/> */}
+                        <li><a className="btn" href="/">Home</a></li>
+                        <li><a className="btn" href="/">Reservations</a></li>
                         <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
                         <li><Link to="/about" className="btn" href="/">About</Link></li>
                     </ul>

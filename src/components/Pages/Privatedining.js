@@ -11,7 +11,7 @@ export class Privatedining extends Component {
 
             <div className="desktopNavPriv">
                     <ul >
-                        <li><a className="btn" href="#menuAnchor">Menu</a></li>
+                        <li><a className="btn" href="/">Home</a></li>
                         <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
                         {/* <img className="acorn" src={Icon}/> */}
                         <li><Link to="/private-dining" className="btn">Private Dining</Link></li>

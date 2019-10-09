@@ -12,9 +12,8 @@ export class About extends Component {
         <div className="aboutContainer">
         <div className="desktopNavAbt">
                     <ul >
-                        <li><a className="btn" href="#menuAnchor">Menu</a></li>
+                        <li><a className="btn" href="/">Home</a></li>
                         <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
-                        {/* <img className="acorn" src={Icon}/> */}
                         <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
                         <li><Link to="/about" className="btn" href="/">About</Link></li>
                     </ul>
@@ -52,7 +51,7 @@ export class About extends Component {
                     <div className="footerAbt">
                 <p className="footerMessage">Denver Acorn 2019 - Brought to you by <a href="http://lusciden.com">Lusciden</a></p>
                 <div className="socialFooter">
-                    <a href="https://www.facebook.com/denveracorn/?ref=br_rs"><FaFacebookF className="social" /></a><a href="https://twitter.com/acorn_Denver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><FaTwitterSquare className="social2" /></a>
+                    <a href="https://www.facebook.com/denveracorn/?ref=br_rs"><FaFacebookF className="socialAbt" /></a><a href="https://twitter.com/acorn_Denver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><FaTwitterSquare className="socialAbt2" /></a>
                 </div>
             </div>
             </div>
