@@ -769,7 +769,7 @@
     }
 } 
 
-@media (min-width: 100px) and (max-width: 400px){
+@media (min-width: 100px) and (max-width: 500px){
     .desktopNavAbt {
         opacity: 0;
     }
@@ -790,13 +790,14 @@
         grid-row-start: 2;
         grid-row-end: 7;
         background-color: #30332e; 
-        height: 1040px;
+        height: 1080px;
+        margin-left: 22px;
     }
     
     .aboutImage1 {
         height: 30vh;
         width: 68vw;
-        margin-left: -30px;
+        margin-left: -5px;
         margin-top: 25px;
         grid-column-start: 3;
         grid-row-start: 3;
@@ -805,10 +806,10 @@
     .aboutImage2 {
         height: 30vh;
         width: 68vw;
-        margin-left: -30px;
+        margin-left: -3px;
         grid-row-start: 5;
         grid-column-start: 3;
-        margin-top: 42px;
+        margin-top: 75px;
     }
     
     .aboutBryan {
@@ -816,14 +817,12 @@
         grid-column-start: 3;
         grid-column-end: 4;
         grid-row-start: 4;
-        margin-left: -120px;
-        margin-right: -80px;
         color: #edeec9;
         padding: 10px;
-        font-size: 13px;
-        width: 217px;
-        margin-left: -30px;
-        height: 217px;
+        font-size: 15px;
+        width: 278px;
+        margin-left: -3px;
+        height: 232px;
         margin-top:-90px;
     }
     
@@ -836,10 +835,10 @@
         margin-right: -80px;
         color: #edeec9;
         padding: 10px;
-        font-size: 13px;
-        width: 217px;
-        margin-top: -68px;
-        margin-left: -30px;
+        font-size: 15px;
+        width: 278px;
+        margin-top: -40px;
+        margin-left: -2px;
         height: 236px;
     }
     
@@ -854,8 +853,8 @@
     .footerAbt {
         background-color: #525962;
         height: 90px;
-        margin-left: -55px;
-        width: 80vw;
+        margin-left: -42px;
+        width: 87vw;
     }
     
     .footerMessageAbt {
