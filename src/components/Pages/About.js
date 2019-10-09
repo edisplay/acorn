@@ -10,7 +10,7 @@ export class About extends Component {
     render() {
         return (
         <div className="aboutContainer">
-        <div className="desktopNavAbt">
+                <div className="desktopNavAbt">
                     <ul >
                         <li><a className="btn" href="/">Home</a></li>
                         <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
