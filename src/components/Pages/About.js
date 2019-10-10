@@ -50,7 +50,7 @@ export class About extends Component {
                     </div>
                     <div className="footerAbt">
                 <p className="footerMessage">Denver Acorn 2019 - Brought to you by <a href="http://lusciden.com">Lusciden</a></p>
-                <div className="socialFooter">
+                <div className="socialFooterAbt">
                     <a href="https://www.facebook.com/denveracorn/?ref=br_rs"><FaFacebookF className="socialAbt" /></a><a href="https://twitter.com/acorn_Denver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><FaTwitterSquare className="socialAbt2" /></a>
                 </div>
             </div>
