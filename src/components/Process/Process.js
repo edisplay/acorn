@@ -28,8 +28,8 @@ export class Process extends Component {
                     <div className="button"><Link to="/about">Learn More</Link></div>
                     </div>
                 </div> 
-                    <img className="dish" src={Bowl}/>
-                    <img className="chef" src={Chef2}/>                    
+                    <img className="dish" data-aos="fade-up" src={Bowl}/>
+                    <img className="chef" data-aos="fade-down" src={Chef2}/>
             </div>
         )
     }

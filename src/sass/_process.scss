@@ -71,16 +71,16 @@
     margin-top: 30px;
     grid-column-start:9;
     grid-row-start: 1;
-
+    margin-left: -150px;
 }
 
 .chef {
     height: 350px;
-    width: 550px;
+    width: 500px;
     margin-top: 45px;
     grid-column-start: 8;
     grid-row-start: 1;
-    margin-right: -100px;
+    margin-right: -50px;
 }    
 
 @media (min-width: 1113px) and (max-width: 1300px){
