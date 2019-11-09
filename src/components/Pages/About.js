@@ -5,6 +5,7 @@ import { FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
 import './about.scss'
 import './_mobilestyleabt.scss';
 import { Link } from 'react-router-dom';
+import Mobilenav from '../Mobilenav/Mobilenav';
 
 export class About extends Component {
     render() {
@@ -18,7 +19,7 @@ export class About extends Component {
                         <li><Link to="/about" className="btn" href="/">About</Link></li>
                     </ul>
                 </div> 
-
+            <Mobilenav />
             <div className="contBorder">
                 </div>
                     <img className="aboutImage1" src={Bryan}/>

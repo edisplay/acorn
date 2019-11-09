@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './_privatedining.scss';
 import { Link } from 'react-router-dom';
 import { FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
+import Mobilenav from '../Mobilenav/Mobilenav';
 
 export class Privatedining extends Component {
     render() {
@@ -18,7 +19,7 @@ export class Privatedining extends Component {
                         <li><Link to="/about" className="btn" href="/">About</Link></li>
                     </ul>
                 </div> 
-
+                <Mobilenav />
                 <h1 className="privDinHeading">Thank you for considering us for your private dining needs!</h1>
                 <h4 className="privDinContent">We welcome your celebrations, events, and business gatherings.
                     We offer our private dining loft, “the Bird’s Nest”,

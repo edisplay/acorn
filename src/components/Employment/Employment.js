@@ -3,6 +3,7 @@ import Footer from '../Footer/Footer';
 import { Link } from 'react-router-dom'
 import './employment2.scss';
 import { FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
+import Mobilenav from '../Mobilenav/Mobilenav';
 
 export class Employment extends Component {
     render() {
@@ -18,6 +19,7 @@ export class Employment extends Component {
                         <li><Link to="/about" className="btn" href="/">About</Link></li>
                     </ul>
                 </div> 
+					<Mobilenav />
                             <div className="contactContainer">
 							<h1 className="contactHeading">Please Paste Your Cover Letter and Attach Your Resume</h1>
                 			<form action="//formspree.io/james@lusciden.com" method="POST">
