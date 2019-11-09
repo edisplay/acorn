@@ -19,6 +19,7 @@
     "react-router": "^5.1.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
+    "react-skeleton-css": "^1.1.0",
     "sass": "^1.22.12",
     "styled-components": "^4.4.0",
     "typescript": "^3.6.3"

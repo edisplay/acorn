@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useEffect } from 'react';
 import '../../sass/_reservations.scss';
 
 export class Reservations extends Component {
@@ -9,7 +9,7 @@ export class Reservations extends Component {
     // componentDidMount() {
     //     const script = document.createElement("script");
 
-    //     script.src = '//www.opentable.com/widget/reservation/loader?rid=347401&type=standard&theme=tall&iframe=true&domain=com&lang=en-US';
+    //     script.src = '//www.opentable.com/widget/reservation/loader?rid=412810&type=standard&theme=wide&iframe=true&domain=com&lang=en-US&newtab=false';
     //     script.async = true;
 
     //     document.body.appendChild(script);
@@ -22,8 +22,7 @@ export class Reservations extends Component {
                     <h2 id="reservationsAnchor">Reservations</h2>
                     <div className="divider"></div>
                     <div className="openTable">
-                    {/* <script type='text/javascript' className="openTable" src='//www.opentable.com/widget/reservation/loader?rid=347401&type=standard&theme=tall&iframe=true&domain=com&lang=en-US'></script> */}
-                    </div>
+                    <script type='text/javascript' src='//www.opentable.com/widget/reservation/loader?rid=412810&type=standard&theme=wide&iframe=true&domain=com&lang=en-US&newtab=false'></script>                    </div>
                 </div>
                 <h1 className="menuHeading" id="menuAnchor">Menu</h1>
             </div>

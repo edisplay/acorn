@@ -19,25 +19,6 @@ export class Privatedining extends Component {
                     </ul>
                 </div> 
 
-                <div className="mobileContainer">
-                    <div class="mobileMenuWrap">
-                            <input type="checkbox" className="toggler" />
-                            <div className="hamburger"><div><div></div></div></div>
-                            <div className="mobileMenu">
-                            <div>
-                                <div>
-                                    <ul>
-                                        <li><a className="btn" href="/">Home</a></li>
-                                        <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
-                                        <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
-                                        <li><Link to="/about" className="btn" href="/">About</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-                {/* <div id="privDinButton"><Link to="/">Return Home</Link></div> */}
                 <h1 className="privDinHeading">Thank you for considering us for your private dining needs!</h1>
                 <h4 className="privDinContent">We welcome your celebrations, events, and business gatherings.
                     We offer our private dining loft, “the Bird’s Nest”,

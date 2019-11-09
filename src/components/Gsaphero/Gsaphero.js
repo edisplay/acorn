@@ -7,7 +7,7 @@ export class Gsaphero extends Component {
     render() {
         return (
             <div className="gsaphero">
-                <h1 className="gsapHeading" >A feast for your eyes as much as your palate.</h1>
+                <h1 className="gsapHeading" data-aos="fade-down" >A feast for your eyes as much as your palate.</h1>
             </div>
         )
     }

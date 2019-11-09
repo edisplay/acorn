@@ -18,25 +18,6 @@ export class About extends Component {
                         <li><Link to="/about" className="btn" href="/">About</Link></li>
                     </ul>
                 </div> 
-    
-                <div className="mobileContainer">
-                    <div class="mobileMenuWrap">
-                            <input type="checkbox" className="toggler" />
-                            <div className="hamburger"><div><div></div></div></div>
-                            <div className="mobileMenu">
-                            <div>
-                                <div>
-                                    <ul>
-                                        <li><a className="btn" href="/">Home</a></li>
-                                        <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
-                                        <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
-                                        <li><Link to="/about" className="btn" href="/">About</Link></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
 
             <div className="contBorder">
                 </div>
