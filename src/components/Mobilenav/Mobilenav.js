@@ -29,16 +29,16 @@ handleToggle = () => {
                         </button>    
                     </div>
                     <ul className={this.state.isOpen?"nav-links show-nav":"nav-links"}>
-                        <li>
+                        <li className="mobNav1">
                             <Link to="/">Home</Link>
                         </li>
-                        <li>
+                        <li className="mobNav2">
                             <Link to="/">Reservations</Link>
                         </li>
-                        <li>
+                        <li className="mobNav3">
                             <Link to="/private-dining">Private Dining</Link>
                         </li>
-                        <li>
+                        <li className="mobNav4">
                             <Link to="/about">About</Link>
                         </li>
                     </ul>  
