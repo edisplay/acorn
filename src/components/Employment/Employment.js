@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import './employment2.scss';
 import { FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
 import Mobilenav from '../Mobilenav/Mobilenav';
+import '../Mobilenav/Mobilenav.scss';
 
 export class Employment extends Component {
     render() {
