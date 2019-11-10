@@ -3,7 +3,6 @@ import Chefian from './chefIan.png';
 import Bryan from './bryan.png';
 import { FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
 import './about.scss'
-import './_mobilestyleabt.scss';
 import { Link } from 'react-router-dom';
 import Mobilenav from '../Mobilenav/Mobilenav';
 
