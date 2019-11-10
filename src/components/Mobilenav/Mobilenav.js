@@ -20,13 +20,13 @@ handleToggle = () => {
                             <Link>
                                     <img src={acorn} alt="Acorn Logo" className="mobile-image"/>
                             </Link>
-                        <button
-                            type="button"
+                        <div
+                            // type="button"
                             className="nav-btn"
                             onClick={this.handleToggle}
                         >
                             <FaAlignRight className="nav-icon" />
-                        </button>    
+                        </div>    
                     </div>
                     <ul className={this.state.isOpen?"nav-links show-nav":"nav-links"}>
                         <li className="mobNav1">

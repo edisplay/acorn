@@ -22,6 +22,8 @@ li {
   margin-left: -2px;
   margin-right: -2px;
   padding-bottom: 2px;
+  float: right;
+  margin-top: -45px;
 }
 
 .mobile-image {
@@ -85,6 +87,7 @@ li {
     margin-left: -2px;
     margin-right: -2px;
     padding-bottom: 2px;
+    margin-top: -40px;
   }
   
   .mobile-image {
@@ -149,6 +152,7 @@ li {
     margin-left: -2px;
     margin-right: -2px;
     padding-bottom: 2px;
+    margin-top: -40px;
   }
   
   .mobile-image {
@@ -213,6 +217,7 @@ li {
     margin-left: -2px;
     margin-right: -2px;
     padding-bottom: 2px;
+    margin-top: -40px;
   }
   
   .mobile-image {
@@ -277,6 +282,7 @@ li {
     margin-left: -2px;
     margin-right: -2px;
     padding-bottom: 2px;
+    margin-top: -40px;
   }
   
   .mobile-image {
@@ -341,6 +347,7 @@ li {
     margin-left: -2px;
     margin-right: -2px;
     padding-bottom: 2px;
+    margin-top: -40px;
   }
   
   .mobile-image {
@@ -405,6 +412,7 @@ li {
     margin-left: -2px;
     margin-right: -2px;
     padding-bottom: 2px;
+    margin-top: -40px;
   }
   
   .mobile-image {
@@ -481,6 +489,55 @@ li {
     font-family: 'Lexend Peta', sans-serif;
   }
 
+  @media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+  @media (min-width: 378px) and (max-width: 458px) {
+    li {
+      list-style-type: none;
+    }
+
+    input {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      }
+    
+    .mobile-navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 0.75rem 2rem;
+      background: var(--offWhite);
+      z-index: 1;
+      background-color: #30332e;
+    }
+    
+    .nav-icon {
+      color: white;
+      background-color: #30332e;
+      font-size: 30px;
+      float: right;
+      margin-top: -40px;
+    }
+    
+    .mobile-image {
+      margin-right: 56.5vw;
+      height: 40px;
+      margin-top: 10px;
+      margin-bottom: -5px;
+    }
+    
+    .nav-links {
+      height:0;
+      overflow: hidden;
+      text-align: center;
+      transition: all 0.3s linear;
+      font-family: 'Lexend Peta', sans-serif;
+    }
+  }
+}}
+
   .mobNav1 {
     padding-top: 30px;
     padding-bottom: 25px;
@@ -528,6 +585,7 @@ li {
     margin-left: -2px;
     margin-right: -2px;
     padding-bottom: 2px;
+    margin-top: -40px;
   }
   
   .mobile-image {
@@ -591,6 +649,7 @@ li {
     margin-left: -2px;
     margin-right: -2px;
     padding-bottom: 2px;
+    margin-top: -40px;
   }
   
   .mobile-image {
