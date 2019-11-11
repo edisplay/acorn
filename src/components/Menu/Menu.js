@@ -27,7 +27,7 @@ export class Menu extends Component {
                         <p className="menuItems">Oak Roasted Half Chicken (32)</p>
                         <p className="menuItems">16oz. Lamb Shank (36)</p>
                         <p className="menuItems">Dry Aged Half Duck(47)</p>
-                        <p className="menuItems">24oz. Bone-In 45 Day Dry Aged CAB Ribeye (107)</p>
+                        <p className="menuItems">24oz. Bone-In Dry-Aged Ribeye (107)</p>
                         </div>
                     </div>
                     <div className="card" id="innest1">
