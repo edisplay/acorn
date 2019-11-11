@@ -1,6 +1,7 @@
 .footer {
-    margin-top: -30px;
+    margin-top: 10px;
 }
+
 .socialLinks {
     text-align: center;
     margin-top: 10px;
@@ -10,38 +11,14 @@
     margin-right: 20px;
     font-size: 20px;
     color: #3b5998;
+    margin-bottom: -10px;
 }
 
 .social2 {
     font-size: 20px;
     color: #1dcaff;
+    margin-bottom: -10px;
 }
-
-@media (min-width: 470px) and (max-width: 570px){
-    .footer {
-        padding-top: 30px;
-        font-size: 10px;
-        margin-bottom: -20px;
-        padding-bottom: 90px;
-    }
-
-    .socialLinks {
-        text-align: center;
-        margin-top: 10px;
-        padding-bottom: 10px;
-    }    
-
-    .social {
-        margin-right: 20px;
-        font-size: 20px;
-        color: #3b5998;
-    }
-    
-    .social2 {
-        font-size: 20px;
-        color: #1dcaff;
-    }
-} 
 
 @media (min-width: 376px) and (max-width: 550px){
     .footer {
@@ -51,9 +28,13 @@
         padding-bottom: 120px;
     }
 
+    .footer-message {
+        margin-top: 20px;
+    }
+
     .socialLinks {
         text-align: center;
-        margin-top: 10px;
+        margin-top: 30px;
         padding-bottom: 10px;
     }    
 
