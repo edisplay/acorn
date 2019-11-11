@@ -33,7 +33,7 @@ handleToggle = () => {
                             <Link to="/">Home</Link>
                         </li>
                         <li className="mobNav2">
-                            <Link to="/">Reservations</Link>
+                            <a href="https://www.opentable.com/acorn?avt=eyJ2IjoxLCJtIjowLCJwIjowfQ&corrid=70ef5610-e83f-48c9-9445-913aea7c48b8&p=2&sd=2019-11-10+19%3A00">Reservations</a>
                         </li>
                         <li className="mobNav3">
                             <Link to="/private-dining">Private Dining</Link>
