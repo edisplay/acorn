@@ -6,10 +6,8 @@ export class Reservations extends Component {
         return (
             <div className="reservations">
                 <div className="resHeading">
-                    <h2 id="reservationsAnchor">Reservations</h2>
+                    <div className="button"><a href="https://www.opentable.com/acorn?avt=eyJ2IjoxLCJtIjowLCJwIjowfQ&corrid=70ef5610-e83f-48c9-9445-913aea7c48b8&p=2&sd=2019-11-10+19%3A00">Reservations</a></div>
                     <div className="divider"></div>
-                    <div className="openTable">
-                    </div>
                 </div>
                 <h1 className="menuHeading" id="menuAnchor">Menu</h1>
             </div>
