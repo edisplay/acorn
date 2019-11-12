@@ -20,7 +20,102 @@
     margin-bottom: -10px;
 }
 
-@media (min-width: 376px) and (max-width: 550px){
+@media (min-width: 1356px) and (max-width: 1600px){
+    .footer {
+        padding-top: 30px;
+        font-size: 14px;
+        padding-bottom: 50px;
+    }
+
+    .messageContainer {
+        margin-top: 80px;
+    }
+
+    .footerMessage {
+        margin-top: 200px;
+        margin-bottom: 20px;
+    }
+
+    .socialLinks {
+        text-align: center;
+        margin-top: 0px;
+        padding-bottom: 10px;
+    }    
+
+    .social {
+        margin-right: 20px;
+        font-size: 20px;
+        color: #3b5998;
+    }
+    
+    .social2 {
+        font-size: 20px;
+        color: #1dcaff;
+    }
+} 
+
+@media (min-width: 601px) and (max-width: 1355px){
+    .footer {
+        padding-top: 30px;
+        font-size: 14px;
+        margin-top: -50px;
+        padding-bottom: 130px;
+    }
+
+    .footer-message {
+        margin-top: 20px;
+    }
+
+    .socialLinks {
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }    
+
+    .social {
+        margin-right: 20px;
+        font-size: 20px;
+        color: #3b5998;
+    }
+    
+    .social2 {
+        font-size: 20px;
+        color: #1dcaff;
+    }
+} 
+
+
+@media (min-width: 470px) and (max-width: 600px){
+    .footer {
+        padding-top: 30px;
+        font-size: 10px;
+        margin-top: -50px;
+        padding-bottom: 130px;
+    }
+
+    .footer-message {
+        margin-top: 20px;
+    }
+
+    .socialLinks {
+        text-align: center;
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }    
+
+    .social {
+        margin-right: 20px;
+        font-size: 20px;
+        color: #3b5998;
+    }
+    
+    .social2 {
+        font-size: 20px;
+        color: #1dcaff;
+    }
+} 
+
+@media (min-width: 376px) and (max-width: 469px){
     .footer {
         padding-top: 30px;
         font-size: 10px;
