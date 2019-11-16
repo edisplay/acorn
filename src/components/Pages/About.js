@@ -30,7 +30,7 @@ export class About extends Component {
                         <p>Preparing incredible food since age 14, Chef Ian Palazzola now brings his sense of artistry into the kitchen here at Denver Acorn. His extreme dedication to creating signature dishes does not take the fun out of food however, and there is a genuine sense of playfulness found in many dishes. Foods where one's flavor palate and color palate intermingle.</p>
                     </div>
                     <div className="footerAbt">
-                <p className="footerMessage">Denver Acorn 2019 - Brought to you by <a href="http://lusciden.com">Lusciden</a></p>
+                <p className="footerMessage">Denver Acorn 2019 - Brought to you by <a href="http://james-mckee.com">James McKee</a></p>
                 <div className="socialFooterAbt">
                     <a href="https://www.facebook.com/denveracorn/?ref=br_rs"><FaFacebookF className="socialAbt" /></a><a href="https://twitter.com/acorn_Denver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><FaTwitterSquare className="socialAbt2" /></a>
                 </div>

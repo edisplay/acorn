@@ -34,8 +34,8 @@ export class Privatedining extends Component {
                     nationally recognized cocktail program!</h4>
                     <div id="privDinButton"><a href="https://partners.gatherhere.com/lead-form/zg4356pw">Inquiries</a></div>
                     <div className="socialFooterPriv">
-                    <p className="footerMessagePriv">Denver Acorn 2019 - Brought to you by <a href="http://lusciden.com
-                ">Lusciden</a></p>
+                    <p className="footerMessagePriv">Denver Acorn 2019 - Brought to you by <a href="http://james-mckee.com
+                ">James McKee</a></p>
                         <a href="https://www.facebook.com/denveracorn/?ref=br_rs"><FaFacebookF className="social" /></a><a href="https://twitter.com/acorn_Denver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><FaTwitterSquare className="social2" /></a>
                     </div>
             </div>
