@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Chefian from './chefIan.png';
-import Bryan from './bryan.png';
 import { FaFacebookF, FaTwitterSquare } from 'react-icons/fa';
 import './about.scss'
 import { Link } from 'react-router-dom';
@@ -10,7 +8,8 @@ export class About extends Component {
     render() {
         return (
         <div className="aboutContainer">
-                <div className="desktopNavAbt">
+            <h1>Hello from About</h1>
+                {/* <div className="desktopNavAbt">
                     <ul >
                         <li><a className="btn" href="/">Home</a></li>
                         <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
@@ -21,8 +20,6 @@ export class About extends Component {
             <Mobilenav />
             <div className="contBorder">
                 </div>
-                    <img className="aboutImage1" src={Bryan}/>
-                    <img className="aboutImage2" src={Chefian}/>
                     <div className="aboutBryan">
                         <p>The owner of Acorn and the Half Eaten Cookie restaurant group, Bryan Dayton is a restauranteur who takes pride in well-sourced, excellently-prepared foods. He shares his passion for the hospitality industry with employees and patrons alike. This dedication to the craft shines through in both the food and cocktail menu.</p>
                     </div>
@@ -34,7 +31,7 @@ export class About extends Component {
                 <div className="socialFooterAbt">
                     <a href="https://www.facebook.com/denveracorn/?ref=br_rs"><FaFacebookF className="socialAbt" /></a><a href="https://twitter.com/acorn_Denver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><FaTwitterSquare className="socialAbt2" /></a>
                 </div>
-            </div>
+            </div> */}
             </div>
         )
     }
