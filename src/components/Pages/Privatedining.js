@@ -13,8 +13,7 @@ export class Privatedining extends Component {
             <div className="desktopNavPriv">
                     <ul >
                         <li><a className="btn" href="/">Home</a></li>
-                        <li><a className="btn" href="#reservationsAnchor">Reservations</a></li>
-                        {/* <img className="acorn" src={Icon}/> */}
+                        <li><a className="btn" href="https://www.opentable.com/acorn?avt=eyJ2IjoxLCJtIjowLCJwIjowfQ&corrid=70ef5610-e83f-48c9-9445-913aea7c48b8&p=2&sd=2019-11-10+19%3A00">Reservations</a></li>
                         <li><Link to="/private-dining" className="btn">Private Dining</Link></li>
                         <li><Link to="/about" className="btn" href="/">About</Link></li>
                     </ul>
