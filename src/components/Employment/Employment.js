@@ -42,11 +42,11 @@ export class Employment extends Component {
 									<li><input type="submit" value="Send Message" class="button primary" className="buttonEmp" /></li>
 								</ul>
 							</form>
-							<p className="footerMessage">Denver Acorn 2019 - Brought to you by <a href="http://james-mckee.com
+							{/* <p className="footerMessage">Denver Acorn 2019 - Brought to you by <a href="http://james-mckee.com
                 ">James McKee</a></p>
 				<div className="socialFooterCon">
                     <a href="https://www.facebook.com/denveracorn/?ref=br_rs"><FaFacebookF className="socialCon" /></a><a href="https://twitter.com/acorn_Denver?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><FaTwitterSquare className="social2Con" /></a>
-                </div>
+                </div> */}
             </div>
             </div>
         )
