@@ -7,5 +7,192 @@
     text-align: center;
     color: #edeec9;
     font-family: 'Lexend Peta', sans-serif;
-    padding-top: 20px;
+    padding-top: 30px;
 }
+
+.about-div {
+    margin-top: 60px;
+}
+
+#about-content-container {
+    border-color: white;
+    height: 45vh;
+    color: #edeec9;
+    font-family: 'Lexend Peta', sans-serif;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    border: 3px solid white;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (min-width: 1264px) and (max-width: 1445px) {
+    #about-content-container {
+        border-color: white;
+        height: 45vh;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        background-color: black;
+        text-align: center;
+        margin: auto;
+        width: 70%;
+        border: 3px solid white;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .about-heading { 
+        text-align: center;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        padding-top: 110px;
+    }
+}    
+
+@media (min-width: 1109px) and (max-width: 1263px) {
+    .about-heading { 
+        text-align: center;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        padding-top: 110px;
+    }
+
+    #about-content-container {
+        border-color: white;
+        height: 45vh;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        background-color: black;
+        text-align: center;
+        margin: auto;
+        width: 80%;
+        border: 3px solid white;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 919px) and (max-width: 1108px) {
+    #about-content-container {
+        border-color: white;
+        height: 45vh;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        background-color: black;
+        text-align: center;
+        margin: auto;
+        width: 90%;
+        border: 3px solid white;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .about-heading { 
+        text-align: center;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        padding-top: 110px;
+    }
+}   
+
+@media (min-width: 649px) and (max-width: 918px) {
+    #about-content-container {
+        border-color: white;
+        height: 65vh;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        background-color: black;
+        text-align: left;
+        margin: auto;
+        width: 95%;
+        border: 3px solid white;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 16px;
+    }
+
+    .about-heading { 
+        text-align: center;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        padding-top: 110px;
+    }
+} 
+
+@media (min-width: 569px) and (max-width: 649px) {
+    #about-content-container {
+        border-color: white;
+        height: 65vh;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        background-color: black;
+        text-align: left;
+        margin: auto;
+        width: 95%;
+        border: 3px solid white;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+
+    .about-heading { 
+        text-align: center;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        padding-top: 110px;
+    }
+} 
+
+@media (min-width: 427px) and (max-width: 568px) {
+    #about-content-container {
+        border-color: white;
+        height: 65vh;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        background-color: black;
+        text-align: left;
+        margin: auto;
+        width: 95%;
+        border: 3px solid white;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+    }
+
+    .about-heading { 
+        text-align: center;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        padding-top: 110px;
+    }
+} 
+
+@media (min-width: 300px) and (max-width: 426px) {
+    #about-content-container {
+        border-color: white;
+        height: 82vh;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        background-color: black;
+        text-align: left;
+        margin: auto;
+        width: 95%;
+        border: 3px solid white;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 13px;
+    }
+} 
