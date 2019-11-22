@@ -182,7 +182,7 @@
 @media (min-width: 300px) and (max-width: 426px) {
     #about-content-container {
         border-color: white;
-        height: 82vh;
+        height: 72vh;
         color: #edeec9;
         font-family: 'Lexend Peta', sans-serif;
         background-color: black;
@@ -194,5 +194,13 @@
         padding-left: 10px;
         padding-right: 10px;
         font-size: 13px;
+    }
+
+    .about-heading { 
+        text-align: center;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        padding-top: 90px;
+        margin-bottom: -30px;
     }
 } 
