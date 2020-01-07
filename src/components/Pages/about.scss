@@ -52,6 +52,31 @@
         font-family: 'Lexend Peta', sans-serif;
         padding-top: 110px;
     }
+} 
+
+@media (min-width: 1264px) and (max-width: 1445px) {
+    #about-content-container {
+        border-color: white;
+        height: 45vh;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        background-color: black;
+        text-align: center;
+        margin: auto;
+        width: 70%;
+        border: 3px solid white;
+        padding-top: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .about-heading { 
+        text-align: center;
+        color: #edeec9;
+        font-family: 'Lexend Peta', sans-serif;
+        padding-top: 110px;
+    }
 }    
 
 @media (min-width: 1109px) and (max-width: 1263px) {

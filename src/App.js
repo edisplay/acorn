@@ -20,7 +20,7 @@ function App() {
   return (
     <Router>
         <Switch>
-        <Route path="/join-our-team" component={Employment}/>  
+        <Route path="/join-our-team" component={Employment}/>
         <Route path="/about" component={About}/>
         <Route path="/private-dining" component={Privatedining}/>
         <div className="container">
@@ -34,8 +34,8 @@ function App() {
             <Route path="/" component={Hours}/>
             <Route path="/" component={Footer}/>
         </div>
-        </Switch>  
-    </Router>         
+        </Switch>
+    </Router>
   );
 }
 
